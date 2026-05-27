@@ -1,0 +1,76 @@
+{
+  "experiment_id": "development",
+  "generation_mode": "geographical_aware",
+  "run_simulation": true,
+  "run_recovery": false,
+  "generate_plots": true,
+  "load_results_dir": "latest",
+  "seeds": {
+    "infra": 101,
+    "apps": 150,
+    "users": 202,
+    "clustering": 303,
+    "nsga2": 404
+  },
+  "infrastructure": {
+    "n_nodes": 500,
+    "m_edges": 2,
+    "min_node_cap": 5,
+    "max_node_cap": 30,
+    "min_node_price": 1,
+    "max_node_price": 5,
+    "min_latency": 1.0,
+    "max_latency": 10.0
+  },
+  "tiered_zones": {
+    "cloud": {
+      "capacity": 10000,
+      "price": 0.5
+    },
+    "fog": {
+      "min_capacity": 50,
+      "max_capacity": 200,
+      "min_price": 2,
+      "max_price": 4,
+      "min_latency_to_cloud": 20.0,
+      "max_latency_to_cloud": 40.0,
+      "fog_percentage": 0.5
+    },
+    "edge": {
+      "min_capacity": 10,
+      "max_capacity": 30,
+      "min_price": 5,
+      "max_price": 10,
+      "min_latency_to_fog": 1.0,
+      "max_latency_to_fog": 5.0,
+      "mesh_prob": 0.1,
+      "min_mesh_latency": 2.0,
+      "max_mesh_latency": 8.0
+    }
+  },
+  "workload": {
+    "n_apps": 50,
+    "n_users": 1000,
+    "edge_nodes_with_users_percentage": 0.8,
+    "min_app_demand": 2,
+    "max_app_demand": 10,
+    "min_app_execution_load": 1.0,
+    "max_app_execution_load": 10.0
+  },
+  "user": {
+    "min_request_ratio": 0.1,
+    "max_request_ratio": 10.0
+  },
+  "algorithm": {
+    "alpha": 0.4,
+    "beta": 0.6,
+    "k_levels": 2,
+    "k_steps": 1,
+    "n_runs": 1
+  },
+  "genetic": {
+    "pop_size": 100,
+    "generations": 2,
+    "aggregator_front_size": 30
+  }
+}
