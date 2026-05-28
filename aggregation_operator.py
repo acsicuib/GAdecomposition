@@ -129,13 +129,13 @@ class HierarchicalAggregator:
                 fronts[c_parent] = fronts[c2]
                 t_merge_end = time.perf_counter()
                 merge_times[c_parent] = t_merge_end - t_merge_start
-                print(f"    [HC-PA] Agregando {c1} (Cloud Bypass) y {c2} -> {c_parent} | Front size: {len(fronts[c_parent])} | Time: {merge_times[c_parent]:.4f}s")
+                print(f"    [HC-PA] Aggregating {c1} (Cloud Bypass) and {c2} -> {c_parent} | Front size: {len(fronts[c_parent])} | Time: {merge_times[c_parent]:.4f}s")
                 continue
             elif c2 == self.infra.cloud_node:
                 fronts[c_parent] = fronts[c1]
                 t_merge_end = time.perf_counter()
                 merge_times[c_parent] = t_merge_end - t_merge_start
-                print(f"    [HC-PA] Agregando {c1} y {c2} (Cloud Bypass) -> {c_parent} | Front size: {len(fronts[c_parent])} | Time: {merge_times[c_parent]:.4f}s")
+                print(f"    [HC-PA] Aggregating {c1} and {c2} (Cloud Bypass) -> {c_parent} | Front size: {len(fronts[c_parent])} | Time: {merge_times[c_parent]:.4f}s")
                 continue
             
             # Step 1: Pre-filtrar paretos hijos si superan aggregator_front_size
@@ -175,6 +175,6 @@ class HierarchicalAggregator:
             t_merge_end = time.perf_counter()
             merge_times[c_parent] = t_merge_end - t_merge_start
             
-            print(f"    [HC-PA] Agregando {c1} y {c2} -> {c_parent} | Front size: {len(fronts[c_parent])} | Time: {merge_times[c_parent]:.4f}s")
+            print(f"    [HC-PA] Aggregating {c1} and {c2} -> {c_parent} | Front size: {len(fronts[c_parent])} | Time: {merge_times[c_parent]:.4f}s")
             
         return fronts, merge_times

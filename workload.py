@@ -43,14 +43,19 @@ class Workload:
             else:
                 edge_nodes_sorted = sorted(edge_nodes, key=lambda k: self.infra.centrality.get(k, 0.0))
                 pct = getattr(self.config, 'edge_nodes_with_users_percentage', getattr(self.config, 'edge_nodes_percentage', 0.3))
-                n_allowed = max(1, int(len(edge_nodes_sorted) * pct))
+                
+                n_allowed = int(self.config.n_nodes * pct)
+                if n_allowed > len(edge_nodes_sorted):
+                    print(f"Advertencia: El porcentaje configurado ({pct*100}%) pide {n_allowed} nodos edge, pero solo existen {len(edge_nodes_sorted)}. Se limitará a los disponibles.")
+                    n_allowed = len(edge_nodes_sorted)
+                n_allowed = max(1, n_allowed)
                 allowed_nodes = edge_nodes_sorted[:n_allowed]
         elif mode == 'geographical_aware':
             # Nodos con menor centralidad (edge nodes)
             # Ordenamos los nodos por su centralidad (ascendente, menor centralidad primero)
             sorted_nodes = sorted(self.infra.centrality.keys(), key=lambda k: self.infra.centrality[k])
             pct = getattr(self.config, 'edge_nodes_with_users_percentage', getattr(self.config, 'edge_nodes_percentage', 0.3))
-            n_edge_nodes = max(1, int(len(sorted_nodes) * pct))
+            n_edge_nodes = max(1, int(self.config.n_nodes * pct))
             allowed_nodes = sorted_nodes[:n_edge_nodes]
         else:
             allowed_nodes = list(self.infra.graph.nodes())

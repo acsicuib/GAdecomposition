@@ -40,16 +40,16 @@ class Visualizer:
                                    node_color='orange', node_size=600, label='Fog')
         if edge_no_users:
             nx.draw_networkx_nodes(G, pos, nodelist=edge_no_users, 
-                                   node_color='skyblue', node_size=500, label='Edge (Sin usuarios)')
+                                   node_color='skyblue', node_size=500, label='Edge (No users)')
         if user_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=user_nodes, 
                                    node_color='lightgreen', node_size=500, 
-                                   edgecolors='green', linewidths=2, label='Edge (Con usuarios)')
+                                   edgecolors='green', linewidths=2, label='Edge (With users)')
 
         nx.draw_networkx_edges(G, pos, alpha=0.3)
         nx.draw_networkx_labels(G, pos, font_size=10)
         
-        plt.title(f"Topología del Continuum (Semilla Infra: {self.config.seed_infra})")
+        plt.title(f"Continuum Topology (Infra Seed: {self.config.seed_infra})")
         plt.legend(scatterpoints=1)
         plt.axis('off')
         
@@ -89,11 +89,11 @@ class Visualizer:
                                    node_color='orange', node_size=1800, label='Fog')
         if edge_no_users:
             nx.draw_networkx_nodes(G, pos, nodelist=edge_no_users, 
-                                   node_color='skyblue', node_size=1500, label='Edge (Sin usuarios)')
+                                   node_color='skyblue', node_size=1500, label='Edge (No users)')
         if user_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=user_nodes, 
                                    node_color='lightgreen', node_size=1700, 
-                                   edgecolors='green', linewidths=2, label='Edge (Con usuarios)')
+                                   edgecolors='green', linewidths=2, label='Edge (With users)')
 
         nx.draw_networkx_edges(G, pos, alpha=0.3)
         
@@ -143,7 +143,7 @@ class Visualizer:
             
         nx.draw_networkx_labels(G, pos, labels, font_size=7)
         
-        plt.title(f"Topología Detallada (Modo: {getattr(self.config, 'generation_mode', 'uniform')}, Semilla Infra: {self.config.seed_infra})")
+        plt.title(f"Detailed Topology (Mode: {getattr(self.config, 'generation_mode', 'uniform')}, Infra Seed: {self.config.seed_infra})")
         plt.legend(scatterpoints=1)
         plt.axis('off')
         
@@ -213,11 +213,11 @@ class Visualizer:
                                    node_color='orange', node_size=1000, label='Fog')
         if edge_no_users:
             nx.draw_networkx_nodes(G, pos, nodelist=edge_no_users, 
-                                   node_color='skyblue', node_size=800, label='Edge (Sin usuarios)')
+                                   node_color='skyblue', node_size=800, label='Edge (No users)')
         if user_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=user_nodes, 
                                    node_color='lightgreen', node_size=800, 
-                                   edgecolors='green', linewidths=2, label='Edge (Con usuarios)')
+                                   edgecolors='green', linewidths=2, label='Edge (With users)')
 
         nx.draw_networkx_edges(G, pos, alpha=0.3)
         nx.draw_networkx_labels(G, pos, labels, font_size=8)
@@ -232,40 +232,40 @@ class Visualizer:
     def list_users_human_readable(self):
         """Lista usuarios, sus apps y dónde están conectados."""
         print("\n" + "╔" + "═"*58 + "╗")
-        print(f"║ {'REPORTE DE USUARIOS CONECTADOS':^56} ║")
+        print(f"║ {'CONNECTED USERS REPORT':^56} ║")
         print("╠" + "═"*15 + "╦" + "═"*20 + "╦" + "═"*21 + "╣")
-        print(f"║ {'USUARIO':<13} ║ {'NODO ASOCIADO':<18} ║ {'APLICACIÓN':<19} ║")
+        print(f"║ {'USER':<13} ║ {'ASSOCIATED NODE':<18} ║ {'APPLICATION':<19} ║")
         print("╠" + "═"*15 + "╬" + "═"*20 + "╬" + "═"*21 + "╣")
         
         user_count = 1
         for node, reqs in self.workload.user_assignments.items():
             for req in reqs:
-                print(f"║ User_{user_count:<8} ║ Nodo {node:<13} ║ App_{req['app_id']:<14} ║")
+                print(f"║ User_{user_count:<8} ║ Node {node:<13} ║ App_{req['app_id']:<14} ║")
                 user_count += 1
         print("╚" + "═"*15 + "╩" + "═"*20 + "╩" + "═"*21 + "╝")
 
     def list_node_capacities(self):
         """Muestra la capacidad de cómputo disponible en cada nodo."""
         print("\n" + "╔" + "═"*45 + "╗")
-        print(f"║ {'CAPACIDADES DE CÓMPUTO POR NODO':^43} ║")
+        print(f"║ {'NODE COMPUTE CAPACITIES':^43} ║")
         print("╠" + "═"*18 + "╦" + "═"*24 + "╣")
-        print(f"║ {'ID NODO':<16} ║ {'CAPACIDAD DISPONIBLE':<22} ║")
+        print(f"║ {'NODE ID':<16} ║ {'AVAILABLE CAPACITY':<22} ║")
         print("╠" + "═"*18 + "╬" + "═"*24 + "╣")
         
         for node in sorted(self.infra.graph.nodes()):
             cap = self.infra.node_capacities[node]
             cap_str = "∞ (Unlimited)" if cap == float('inf') else f"{cap} units"
             tag = " [CLOUD]" if node == self.infra.cloud_node else ""
-            print(f"║ Nodo {node:<11} ║ {cap_str:<22} ║{tag}")
+            print(f"║ Node {node:<11} ║ {cap_str:<22} ║{tag}")
             
         print("╚" + "═"*18 + "╩" + "═"*24 + "╝")
 
     def list_app_requirements(self):
         """Muestra los requerimientos de recursos y carga de cada aplicación."""
         print("\n" + "╔" + "═"*70 + "╗")
-        print(f"║ {'REQUERIMIENTOS Y CARGA DE APLICACIONES':^68} ║")
+        print(f"║ {'APPLICATION REQUIREMENTS AND LOAD':^68} ║")
         print("╠" + "═"*20 + "╦" + "═"*22 + "╦" + "═"*24 + "╣")
-        print(f"║ {'ID APLICACIÓN':<18} ║ {'DEMANDA RECURSOS':<20} ║ {'CARGA EJECUCIÓN':<22} ║")
+        print(f"║ {'APPLICATION ID':<18} ║ {'RESOURCE DEMAND':<20} ║ {'EXECUTION LOAD':<22} ║")
         print("╠" + "═"*20 + "╬" + "═"*22 + "╬" + "═"*24 + "╣")
         
         for app_id, demand in sorted(self.workload.app_demands.items()):
@@ -277,9 +277,9 @@ class Visualizer:
     def list_node_vectors(self):
         """Muestra el vector V de cada nodo (Apps que pasan por él)."""
         print("\n" + "╔" + "═"*58 + "╗")
-        print(f"║ {'VECTORES DE AFINIDAD (V) POR NODO':^56} ║")
+        print(f"║ {'AFFINITY VECTORS (V) PER NODE':^56} ║")
         print("╠" + "═"*15 + "╦" + "═"*40 + "╣")
-        print(f"║ {'ID NODO':<13} ║ {'VECTOR V (Presencia de Apps)':<38} ║")
+        print(f"║ {'NODE ID':<13} ║ {'V VECTOR (App Presence)':<38} ║")
         print("╠" + "═"*15 + "╬" + "═"*40 + "╬")
         
         for node in sorted(self.infra.graph.nodes()):
@@ -287,6 +287,6 @@ class Visualizer:
             # Formateamos el vector para que sea legible: [0 1 0 0 1...]
             v_str = "[" + " ".join([str(int(x)) for x in vector]) + "]"
             tag = " [CLOUD]" if node == self.infra.cloud_node else ""
-            print(f"║ Nodo {node:<8} ║ {v_str:<38} ║{tag}")
+            print(f"║ Node {node:<8} ║ {v_str:<38} ║{tag}")
             
         print("╚" + "═"*15 + "╩" + "═"*40 + "╝")

@@ -19,38 +19,72 @@ from nsga2 import NSGA2
 from results_manager import ResultsManager
 from aggregation_operator import HierarchicalAggregator
 
-def print_submatrices_summary(submatrices, config):
+def print_submatrices_summary(submatrices, config, rm=None):
     from collections import Counter
-    sizes = []
+    import os
+    natural_sizes = []
+    pruned_sizes = []
+    
     for node_id, template in submatrices.items():
         n_rows = len(template['rows'])
         n_services = len(template['services'])
-        sizes.append((n_rows, n_services))
+        if template.get('is_pruned', False):
+            theo = template.get('theoretical_rows', n_rows)
+            pruned_sizes.append((theo, n_rows, n_services))
+        else:
+            natural_sizes.append((n_rows, n_services))
+            
+    output_lines = []
+    output_lines.append("\n" + "="*70)
+    output_lines.append(f"{'CALCULATED SUBMATRICES SIZE SUMMARY (DECOMPOSITION)':^70}")
+    output_lines.append("="*70)
     
-    counter = Counter(sizes)
-    # Ordenar por area (filas * columnas) descendente, luego por filas y columnas descendente
-    sorted_sizes = sorted(counter.items(), key=lambda x: (x[0][0] * x[0][1], x[0][0], x[0][1]), reverse=True)
-    
-    print("\n" + "="*70)
-    print(f"{'RESUMEN DE TAMAÑOS DE SUBMATRICES CALCULADAS (DESCOMPOSICIÓN)':^70}")
-    print("="*70)
-    print(f" {'Dimensiones (Filas x Servicios)':<35} | {'Total Celdas':<12} | {'Cantidad':<8}")
-    print("-"*70)
-    for (n_rows, n_services), count in sorted_sizes:
-        dims = f"{n_rows} x {n_services}"
-        area = n_rows * n_services
-        print(f" {dims:<35} | {area:<12} | {count:<8}")
+    output_lines.append(f"\n--- Natural Submatrices ({len(natural_sizes)}) ---")
+    if natural_sizes:
+        output_lines.append(f" {'Dimensions (Rows x Services)':<35} | {'Total Cells':<12} | {'Count':<8}")
+        output_lines.append("-" * 70)
+        c_nat = Counter(natural_sizes)
+        sorted_nat = sorted(c_nat.items(), key=lambda x: (x[0][0]*x[0][1], x[0][0], x[0][1]), reverse=True)
+        for (n_rows, n_services), count in sorted_nat:
+            dims = f"{n_rows} x {n_services}"
+            area = n_rows * n_services
+            output_lines.append(f" {dims:<35} | {area:<12} | {count:<8}")
+    else:
+        output_lines.append(" None")
         
-    print("="*70)
-    print(f"{'MATRIZ DE OPTIMIZACIÓN GLOBAL (TRADICIONAL)':^70}")
-    print("="*70)
+    output_lines.append(f"\n--- Pruned Submatrices ({len(pruned_sizes)}) ---")
+    if pruned_sizes:
+        output_lines.append(f" {'Theoretical -> Final (Rows) x Serv.':<35} | {'Cells (Final)':<12} | {'Count':<8}")
+        output_lines.append("-" * 70)
+        c_pruned = Counter(pruned_sizes)
+        sorted_pruned = sorted(c_pruned.items(), key=lambda x: (x[0][1]*x[0][2], x[0][0]), reverse=True)
+        for (t_rows, f_rows, n_servs), count in sorted_pruned:
+            dims = f"{t_rows}->{f_rows} x {n_servs}"
+            area = f_rows * n_servs
+            output_lines.append(f" {dims:<35} | {area:<12} | {count:<8}")
+    else:
+        output_lines.append(" None")
+        
+    output_lines.append("="*70)
+    output_lines.append(f"{'GLOBAL OPTIMIZATION MATRIX (TRADITIONAL)':^70}")
+    output_lines.append("="*70)
     global_rows = config.n_nodes
     global_services = config.n_apps
     global_area = global_rows * global_services
-    print(f" {'Dimensiones (Filas x Servicios)':<35} | {'Total Celdas':<12} | {'Cantidad':<8}")
-    print("-"*70)
+    output_lines.append(f" {'Dimensions (Rows x Services)':<35} | {'Total Cells':<12} | {'Count':<8}")
+    output_lines.append("-" * 70)
     dims_global = f"{global_rows} x {global_services}"
-    print(f" {dims_global:<35} | {global_area:<12} | {'1':<8}")
+    output_lines.append(f" {dims_global:<35} | {global_area:<12} | {'1':<8}")
+    
+    full_output = "\n".join(output_lines)
+    print(full_output)
+    
+    if rm is not None and hasattr(rm, 'base_output_dir'):
+        file_path = os.path.join(rm.base_output_dir, "submatrices_summary.md")
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write("# Submatrices Size Summary\n\n```text\n")
+            f.write(full_output)
+            f.write("\n```\n")
     print("="*70 + "\n")
 
 def get_latest_results_dir():
@@ -85,14 +119,14 @@ def run_simulation_phase(config, rm):
     Z = scheduler.run_clustering()
     submatrices = scheduler.get_submatrices()
 
-    print(f"\nGuardando todos los resultados de esta ejecución en: {rm.output_dir}\n")
-    print(f"Configuración: Infra_Seed={config.seed_infra}, Apps_Seed={config.seed_apps}, Users_Seed={config.seed_users}")
+    print(f"\nSaving all results of this execution to: {rm.output_dir}\n")
+    print(f"Configuration: Infra_Seed={config.seed_infra}, Apps_Seed={config.seed_apps}, Users_Seed={config.seed_users}")
     for node_id in range(config.n_nodes):
         if node_id in submatrices:
-            print(f"Submatriz Nodo {node_id}: {submatrices[node_id]['rows']} x {submatrices[node_id]['services']}")
+            print(f"Submatrix Node {node_id}: {submatrices[node_id]['rows']} x {submatrices[node_id]['services']}")
             print('\n')
             
-    print_submatrices_summary(submatrices, config)
+    print_submatrices_summary(submatrices, config, rm)
             
     # Guardar contexto de la simulación antes de iniciar las ejecuciones
     ctx_file = os.path.join(rm.base_output_dir, "simulation_context.pkl")
@@ -109,13 +143,13 @@ def run_simulation_phase(config, rm):
     
     # Finalizadas todas las runs, guardamos las métricas globales
     rm.save_global_metrics()
-    print("\nSimulación finalizada. Datos guardados correctamente.")
+    print("\nSimulation finished. Data saved successfully.")
     return infra, workload, Z, submatrices
 
 def execute_runs(runs_to_execute, config, rm, infra, workload, Z, submatrices):
     for run_idx in runs_to_execute:
         print("\n" + "="*80)
-        print(f"INICIANDO EJECUCIÓN {run_idx + 1}/{config.n_runs}")
+        print(f"STARTING RUN {run_idx + 1}/{config.n_runs}")
         print("="*80)
         
         rm.set_current_run(run_idx)
@@ -124,7 +158,7 @@ def execute_runs(runs_to_execute, config, rm, infra, workload, Z, submatrices):
         run_nsga_seed = config.seed_nsga2 + run_idx
         rng_nsga2 = RandomManager(run_nsga_seed)
         
-        print(f"\nInicializando instancias de NSGA-II para cada submatriz (Tamaño de población: {config.pop_size})...")
+        print(f"\nInitializing NSGA-II instances for each submatrix (Population size: {config.pop_size})...")
         nsga2_instances = {}
         for node_id, template in submatrices.items():
             nsga_seed = rng_nsga2.py_rng.randint(0, 2**31 - 1)
@@ -133,7 +167,7 @@ def execute_runs(runs_to_execute, config, rm, infra, workload, Z, submatrices):
             nsga.initialize_population(pop_size=config.pop_size)
             nsga2_instances[node_id] = nsga
             
-        print(f"Inicializando la instancia tradicional de NSGA-II (Tamaño de población: {config.pop_size})...")
+        print(f"Initializing traditional NSGA-II instance (Population size: {config.pop_size})...")
         traditional_nsga_seed = rng_nsga2.py_rng.randint(0, 2**31 - 1)
         traditional_nsga_rng = RandomManager(traditional_nsga_seed)
         traditional_template = {
@@ -144,7 +178,7 @@ def execute_runs(runs_to_execute, config, rm, infra, workload, Z, submatrices):
         traditional_nsga.initialize_population(pop_size=config.pop_size)
         
         K_STEPS = config.k_steps
-        print(f"Ejecutando {K_STEPS} pasos de {config.generations} generaciones para las {len(nsga2_instances)} submatrices y modo tradicional...")
+        print(f"Running {K_STEPS} steps of {config.generations} generations for the {len(nsga2_instances)} submatrices and traditional mode...")
         
         aggregator = HierarchicalAggregator(infra, workload, config, nsga2_instances, Z)
         aggregation_history = []
@@ -154,32 +188,32 @@ def execute_runs(runs_to_execute, config, rm, infra, workload, Z, submatrices):
         traditional_nsga_time = 0.0
         
         for step in range(K_STEPS):
-            print(f"  Ejecutando paso {step + 1}/{K_STEPS}...")
+            print(f"  Running step {step + 1}/{K_STEPS}...")
             # Modo Decomposition
             for node_id, nsga in nsga2_instances.items():
                 t_start = time.perf_counter()
                 nsga.run_generations(n_generations=config.generations)
                 local_nsga_times[node_id] += time.perf_counter() - t_start
                 
-            print(f"  -> Ejecutando Operador de Agregación Jerárquica (HC-PA)...")
+            print(f"  -> Running Hierarchical Aggregation Operator (HC-PA)...")
             step_fronts, step_merge_times = aggregator.aggregate_step()
             aggregation_history.append(step_fronts)
             for parent_id, t_merge in step_merge_times.items():
                 aggregation_merge_times[parent_id] = aggregation_merge_times.get(parent_id, 0.0) + t_merge
             
             # Modo Tradicional
-            print(f"  -> Ejecutando modo tradicional...")
+            print(f"  -> Running traditional mode...")
             t_start = time.perf_counter()
             traditional_nsga.run_generations(n_generations=config.generations)
             traditional_nsga_time += time.perf_counter() - t_start
                 
-        print(f"NSGA-II y HC-PA ejecutados exitosamente. Histórico: {K_STEPS * config.generations + 1} poblaciones por instancia.")
+        print(f"NSGA-II and HC-PA executed successfully. History: {K_STEPS * config.generations + 1} populations per instance.")
         
         # Guardar resultados evolutivos
         for node_id, nsga in nsga2_instances.items():
             rm.save_history(node_id, nsga)
             
-        print("\nGuardando resultados del modo tradicional...")
+        print("\nSaving traditional mode results...")
         rm.save_history("traditional", traditional_nsga)
         rm.save_aggregation_history(aggregation_history)
         
@@ -204,16 +238,16 @@ def execute_runs(runs_to_execute, config, rm, infra, workload, Z, submatrices):
 
 def run_plotting_phase(config, rm, infra, workload, Z, submatrices):
     print("\n" + "="*80)
-    print(f"{'INICIANDO GENERACIÓN DE GRÁFICAS Y REPORTES':^80}")
+    print(f"{'STARTING PLOT AND REPORT GENERATION':^80}")
     print("="*80)
     
     # 1. Visualización General
     rm.output_dir = rm.base_output_dir
     plt.figure(figsize=(10, 5))
     dendrogram(Z, labels=list(infra.graph.nodes()))
-    plt.title(f"Clustering Jerárquico Híbrido (Latencia + Afinidad de App)")
-    plt.xlabel("ID del Nodo")
-    plt.ylabel("Distancia Híbrida")
+    plt.title(f"Hybrid Hierarchical Clustering (Latency + App Affinity)")
+    plt.xlabel("Node ID")
+    plt.ylabel("Hybrid Distance")
     plt.savefig(os.path.join(rm.base_output_dir, "clustering_dendrogram.pdf"), format='pdf')
     plt.close()
 
@@ -233,7 +267,7 @@ def run_plotting_phase(config, rm, infra, workload, Z, submatrices):
     # 2. Generación de Gráficos Evolutivos por Run
     root_node_id = 2 * config.n_nodes - 2
     for run_idx in range(config.n_runs):
-        print(f"\nGenerando gráficas para la ejecución {run_idx + 1}/{config.n_runs}")
+        print(f"\nGenerating plots for run {run_idx + 1}/{config.n_runs}")
         rm.set_current_run(run_idx)
         
         # Para submatrices y tradicional, necesitamos el "history"
@@ -265,15 +299,21 @@ def run_plotting_phase(config, rm, infra, workload, Z, submatrices):
             
     # 3. Análisis Estadístico Global
     print("\n" + "="*80)
-    print(f"{'CALCULANDO ANÁLISIS ESTADÍSTICO GLOBAL':^80}")
+    print(f"{'CALCULATING GLOBAL STATISTICAL ANALYSIS':^80}")
     print("="*80)
     
     rm.generate_global_statistical_analysis()
         
-    print("Todos los resultados y PDFs han sido generados correctamente.")
+    print("All results and PDFs have been generated successfully.")
 
 if __name__ == "__main__":
-    config = SimulationConfig()
+    import sys
+    config_file = "simulation_config.json"
+    if len(sys.argv) > 1:
+        config_file = sys.argv[1]
+        
+    config = SimulationConfig(config_file)
+
     
     if config.run_simulation:
         rm = ResultsManager(config)
@@ -284,12 +324,12 @@ if __name__ == "__main__":
         if not load_dir or load_dir == "latest":
             load_dir = get_latest_results_dir()
             if not load_dir:
-                print("Error: No se encontró ningún directorio de resultados en 'results/'")
+                print("Error: No results directory found in 'results/'")
                 exit(1)
-            print(f"Recuperando desde el último directorio de resultados: {load_dir}")
+            print(f"Recovering from the latest results directory: {load_dir}")
         else:
             if not os.path.exists(load_dir):
-                print(f"Error: El directorio {load_dir} no existe.")
+                print(f"Error: The directory {load_dir} does not exist.")
                 exit(1)
                 
         rm = ResultsManager(config, load_dir=load_dir)
@@ -305,14 +345,14 @@ if __name__ == "__main__":
             
         ctx_file = os.path.join(load_dir, "simulation_context.pkl")
         if not os.path.exists(ctx_file):
-            print(f"Error: No se encontró simulation_context.pkl en {load_dir}. No se puede recuperar.")
+            print(f"Error: simulation_context.pkl not found in {load_dir}. Cannot recover.")
             exit(1)
             
         with open(ctx_file, "rb") as f:
             ctx = pickle.load(f)
         infra, workload, Z, submatrices = ctx['infra'], ctx['workload'], ctx['Z'], ctx['submatrices']
         
-        print_submatrices_summary(submatrices, config)
+        print_submatrices_summary(submatrices, config, rm)
         
         pending_runs = []
         root_node_id = 2 * config.n_nodes - 2
@@ -343,12 +383,12 @@ if __name__ == "__main__":
                 pending_runs.append(run_idx)
                 
         if pending_runs:
-            print(f"\nDetectadas {len(pending_runs)} repeticiones pendientes: {pending_runs}")
+            print(f"\nDetected {len(pending_runs)} pending runs: {pending_runs}")
             execute_runs(pending_runs, config, rm, infra, workload, Z, submatrices)
             rm.save_global_metrics()
-            print("\nRecuperación finalizada. Datos guardados correctamente.")
+            print("\nRecovery finished. Data saved successfully.")
         else:
-            print(f"\nNo hay repeticiones pendientes. (Total {config.n_runs} runs)")
+            print(f"\nNo pending runs. (Total {config.n_runs} runs)")
             rm.save_global_metrics()
             
     else:
@@ -356,12 +396,12 @@ if __name__ == "__main__":
         if not load_dir or load_dir == "latest":
             load_dir = get_latest_results_dir()
             if not load_dir:
-                print("Error: No se encontró ningún directorio de resultados en 'results/'")
+                print("Error: No results directory found in 'results/'")
                 exit(1)
-            print(f"Usando el último directorio de resultados: {load_dir}")
+            print(f"Using the latest results directory: {load_dir}")
         else:
             if not os.path.exists(load_dir):
-                print(f"Error: El directorio {load_dir} no existe.")
+                print(f"Error: The directory {load_dir} does not exist.")
                 exit(1)
                 
         rm = ResultsManager(config, load_dir=load_dir)
@@ -369,7 +409,7 @@ if __name__ == "__main__":
         
         ctx_file = os.path.join(rm.base_output_dir, "simulation_context.pkl")
         if not os.path.exists(ctx_file):
-            print(f"Error: No se encontró simulation_context.pkl en {rm.base_output_dir}. Necesario para graficar sin simular.")
+            print(f"Error: simulation_context.pkl not found in {rm.base_output_dir}. Needed for plotting without simulating.")
             exit(1)
             
         with open(ctx_file, "rb") as f:
@@ -379,7 +419,7 @@ if __name__ == "__main__":
         Z = ctx['Z']
         submatrices = ctx['submatrices']
         
-        print_submatrices_summary(submatrices, config)
+        print_submatrices_summary(submatrices, config, rm)
         
     if config.generate_plots:
         run_plotting_phase(config, rm, infra, workload, Z, submatrices)

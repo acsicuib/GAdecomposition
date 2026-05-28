@@ -9,6 +9,8 @@ class SimulationConfig:
         # 1. Definir valores por defecto (fallback)
         self.experiment_id = "development"
         self.generation_mode = "uniform_generation"
+        self.decomposition_mode = "standard"
+        self.pruning_threshold_percentage = 0.3
         
         # Modos de ejecución
         self.run_simulation = True
@@ -79,14 +81,22 @@ class SimulationConfig:
         # 2. Cargar desde el archivo JSON si existe
         if os.path.exists(config_path):
             try:
+                import re
                 with open(config_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
+                    content = f.read()
+                # Strip out inline comments starting with //
+                content_no_comments = re.sub(r'(?m)^\s*//.*$|//.*$', '', content)
+                data = json.loads(content_no_comments)
                 
                 # Asignar experiment_id si existe
                 if "experiment_id" in data:
                     self.experiment_id = data["experiment_id"]
                 if "generation_mode" in data:
                     self.generation_mode = data["generation_mode"]
+                if "decomposition" in data:
+                    dec = data["decomposition"]
+                    self.decomposition_mode = dec.get("mode", self.decomposition_mode)
+                    self.pruning_threshold_percentage = dec.get("pruning_threshold_percentage", self.pruning_threshold_percentage)
                 if "run_simulation" in data:
                     self.run_simulation = data["run_simulation"]
                 if "run_recovery" in data:

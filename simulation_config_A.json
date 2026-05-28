@@ -1,0 +1,80 @@
+{
+    "experiment_id": "expA", // Name or identifier of the experiment. Type: String.
+    "generation_mode": "tiered_zones", // Topology generation mode. Values: "uniform_generation", "tiered_zones", "geographical_aware".
+    "decomposition": { // Submatrix decomposition settings.
+        "mode": "pruned", // Decomposition mode. Values: "standard" (no limits), "pruned" (limits maximum size).
+        "pruning_threshold_percentage": 0.4 // Max submatrix size as percentage of total nodes. Unit: Percentage [0.0, 1.0]. Only valid if decomposition.mode=pruned.
+    },
+    "run_simulation": true, // Whether to run the full simulation. Values: true, false.
+    "run_recovery": false, // Whether to resume/recover a previous execution. Values: true, false.
+    "generate_plots": true, // Whether to generate PDF plots at the end. Values: true, false.
+    "load_results_dir": "latest", // Directory to load results from if recovering. "latest" or specific folder name.
+    "seeds": { // Random seeds for deterministic execution across different simulation components.
+        "infra": 101, // Seed for infrastructure topology generation. Type: Integer.
+        "apps": 150, // Seed for applications distribution. Type: Integer.
+        "users": 202, // Seed for user placement. Type: Integer.
+        "clustering": 303, // Seed for hierarchical clustering. Type: Integer.
+        "nsga2": 404 // Seed for the NSGA-II genetic algorithm. Type: Integer.
+    },
+    "infrastructure": { // Physical infrastructure generation parameters.
+        "n_nodes": 30, // Total number of nodes in the system. Unit: Count.
+        "m_edges": 2, // Number of edges to attach from a new node to existing nodes. Unit: Count. Only valid if generation_mode=uniform_generation.
+        "min_node_cap": 5, // Minimum capacity of a general node. Unit: Generic capacity unit.
+        "max_node_cap": 30, // Maximum capacity of a general node. Unit: Generic capacity unit.
+        "min_node_price": 1, // Minimum cost per unit of resource in a node. Unit: Generic currency unit.
+        "max_node_price": 5, // Maximum cost per unit of resource in a node. Unit: Generic currency unit.
+        "min_latency": 1.0, // Minimum network latency between connected nodes. Unit: Generic time unit (e.g., ms).
+        "max_latency": 10.0 // Maximum network latency between connected nodes. Unit: Generic time unit (e.g., ms).
+    },
+    "tiered_zones": { // Specific parameters for the 'tiered_zones' generation mode. Only valid if generation_mode=tiered_zones.
+        "cloud": { // Central cloud node parameters.
+            "capacity": 10000, // Fixed high capacity of the cloud node. Unit: Generic capacity unit.
+            "price": 0.5 // Fixed low price of the cloud node resources. Unit: Generic currency unit.
+        },
+        "fog": { // Intermediate layer (regional routers/datacenters).
+            "min_capacity": 50, // Minimum capacity of a fog node. Unit: Generic capacity unit.
+            "max_capacity": 200, // Maximum capacity of a fog node. Unit: Generic capacity unit.
+            "min_price": 2, // Minimum price of fog resources. Unit: Generic currency unit.
+            "max_price": 4, // Maximum price of fog resources. Unit: Generic currency unit.
+            "min_latency_to_cloud": 20.0, // Minimum latency from fog to cloud. Unit: Generic time unit (e.g., ms).
+            "max_latency_to_cloud": 40.0, // Maximum latency from fog to cloud. Unit: Generic time unit (e.g., ms).
+            "fog_percentage": 0.2 // Percentage of the non-cloud nodes that will be fog nodes. Unit: Percentage [0.0, 1.0].
+        },
+        "edge": { // Edge layer (local access nodes).
+            "min_capacity": 10, // Minimum capacity of an edge node. Unit: Generic capacity unit.
+            "max_capacity": 30, // Maximum capacity of an edge node. Unit: Generic capacity unit.
+            "min_price": 5, // Minimum price of edge resources. Unit: Generic currency unit.
+            "max_price": 10, // Maximum price of edge resources. Unit: Generic currency unit.
+            "min_latency_to_fog": 1.0, // Minimum latency from edge to parent fog node. Unit: Generic time unit (e.g., ms).
+            "max_latency_to_fog": 5.0, // Maximum latency from edge to parent fog node. Unit: Generic time unit (e.g., ms).
+            "mesh_prob": 0.1, // Probability of creating horizontal connections between edge nodes. Unit: Probability [0.0, 1.0].
+            "min_mesh_latency": 2.0, // Minimum latency between connected edge nodes. Unit: Generic time unit (e.g., ms).
+            "max_mesh_latency": 8.0 // Maximum latency between connected edge nodes. Unit: Generic time unit (e.g., ms).
+        }
+    },
+    "workload": { // Workload (applications and demands) generation parameters.
+        "n_apps": 8, // Total number of unique applications to deploy. Unit: Count.
+        "n_users": 250, // Total number of users creating requests in the system. Unit: Count.
+        "edge_nodes_with_users_percentage": 0.5, // Percentage of TOTAL network nodes that will host users. Unit: Percentage [0.0, 1.0].
+        "min_app_demand": 2, // Minimum capacity required by a single instance of an app. Unit: Generic capacity unit.
+        "max_app_demand": 10, // Maximum capacity required by a single instance of an app. Unit: Generic capacity unit.
+        "min_app_execution_load": 1.0, // Minimum execution load (cost weight) for an app. Unit: Generic computation cost weight.
+        "max_app_execution_load": 10.0 // Maximum execution load for an app. Unit: Generic computation cost weight.
+    },
+    "user": { // User behaviour parameters.
+        "min_request_ratio": 0.1, // Minimum request frequency. Unit: Requests per time unit.
+        "max_request_ratio": 10.0 // Maximum request frequency. Unit: Requests per time unit.
+    },
+    "algorithm": { // Scheduler and clustering algorithm parameters.
+        "alpha": 0.4, // Weight for the physical latency in the hybrid distance metric. Unit: Weight ratio.
+        "beta": 0.6, // Weight for the Jaccard similarity in the hybrid distance metric (alpha + beta = 1). Unit: Weight ratio.
+        "k_levels": 2, // Number of dendrogram levels to go up when creating submatrices. Unit: Count.
+        "k_steps": 1, // Step size when walking up the hierarchy during aggregation. Unit: Count.
+        "n_runs": 30 // Number of repeated independent executions of the genetic algorithm to perform. Unit: Count.
+    },
+    "genetic": { // NSGA-II execution parameters.
+        "pop_size": 100, // Population size for each NSGA-II run. Unit: Count.
+        "generations": 200, // Number of generations (iterations) for NSGA-II. Unit: Count.
+        "aggregator_front_size": 30 // Size of the pareto front to keep during the aggregation step. Unit: Count.
+    }
+}

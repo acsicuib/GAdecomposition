@@ -39,6 +39,11 @@ class ResultsManager:
             if os.path.exists(config_path):
                 import shutil
                 shutil.copy(config_path, os.path.join(self.base_output_dir, "simulation_config.json"))
+                # If custom name was used, also backup with the original filename
+                orig_name = os.path.basename(config_path)
+                if orig_name != "simulation_config.json":
+                    shutil.copy(config_path, os.path.join(self.base_output_dir, orig_name))
+
             
         self.all_decomp_fronts = []
         self.all_trad_fronts = []
@@ -260,42 +265,42 @@ class ResultsManager:
         plt.close()
 
     def generate_markdown_summary(self, infra, workload):
-        md = "# Resumen de la Simulación\n\n"
+        md = "# Simulation Summary\n\n"
         
-        md += "## Capacidades y Costes de los Nodos\n"
-        md += "| ID Nodo | Capacidad Disponible | Coste |\n"
+        md += "## Node Capacities and Costs\n"
+        md += "| Node ID | Available Capacity | Cost |\n"
         md += "|---|---|---|\n"
         for node in sorted(infra.graph.nodes()):
             cap = infra.node_capacities[node]
             price = infra.node_prices.get(node, 0)
             cap_str = "∞ (Unlimited)" if cap == float('inf') else f"{cap} units"
             tag = "☁️ CLOUD" if node == infra.cloud_node else ""
-            md += f"| Nodo {node} | {cap_str} | {price} {tag} |\n"
+            md += f"| Node {node} | {cap_str} | {price} {tag} |\n"
             
-        md += "\n## Requerimientos y Cargas de Aplicaciones\n"
-        md += "| ID Aplicación | Demanda Recursos (Capacidad) | Carga Ejecución (Coste) |\n"
+        md += "\n## Application Requirements and Loads\n"
+        md += "| Application ID | Resource Demand (Capacity) | Execution Load (Cost) |\n"
         md += "|---|---|---|\n"
         for app_id, demand in sorted(workload.app_demands.items()):
             exec_load = workload.app_execution_loads.get(app_id, 0.0)
             md += f"| App_{app_id} | {demand} | {exec_load:.2f} |\n"
             
-        md += "\n## Usuarios Conectados\n"
-        md += "| Usuario | Nodo Asociado | Aplicación Solicitada | Request Ratio |\n"
+        md += "\n## Connected Users\n"
+        md += "| User | Associated Node | Requested Application | Request Ratio |\n"
         md += "|---|---|---|---|\n"
         user_count = 1
         for node, user_requests in workload.user_assignments.items():
             for req in user_requests:
-                md += f"| User_{user_count} | Nodo {node} | App_{req['app_id']} | {req['request_ratio']:.2f} |\n"
+                md += f"| User_{user_count} | Node {node} | App_{req['app_id']} | {req['request_ratio']:.2f} |\n"
                 user_count += 1
                 
-        md += "\n## Vectores de Afinidad (V) por Nodo\n"
-        md += "| ID Nodo | Vector V (Presencia de Apps) |\n"
+        md += "\n## Affinity Vectors (V) per Node\n"
+        md += "| Node ID | V Vector (App Presence) |\n"
         md += "|---|---|\n"
         for node in sorted(infra.graph.nodes()):
             vector = workload.node_vectors[node]
             v_str = "[" + " ".join([str(int(x)) for x in vector]) + "]"
             tag = "☁️ CLOUD" if node == infra.cloud_node else ""
-            md += f"| Nodo {node} | {v_str} {tag} |\n"
+            md += f"| Node {node} | {v_str} {tag} |\n"
             
         file_path = os.path.join(self.output_dir, "simulation_summary.md")
         with open(file_path, "w", encoding="utf-8") as f:
@@ -311,7 +316,7 @@ class ResultsManager:
         
         global_ref_front = self._compute_global_reference_front()
         if not global_ref_front:
-            print("No se encontraron soluciones para generar el frente global.")
+            print("No solutions found to generate the global front.")
             return
             
         global_ref_fit = [ind['fitness'] for ind in global_ref_front]
@@ -448,19 +453,19 @@ class ResultsManager:
         
         plt.figure(figsize=(8, 6))
         data_speedup = [stats['speedup'], stats['speedup_nsga_only']]
-        labels_speedup = ['Speedup Total (con Agregación)', 'Speedup Genético (Solo NSGA-II)']
+        labels_speedup = ['Total Speedup (with Aggregation)', 'Genetic Speedup (Only NSGA-II)']
         plt.boxplot(data_speedup, labels=labels_speedup, patch_artist=True)
-        plt.title("Aceleración (Speedup) Paralelo Simulado")
+        plt.title("Simulated Parallel Speedup")
         plt.grid(True, linestyle='--', alpha=0.7)
         plt.savefig(os.path.join(self.base_output_dir, "statistical_boxplot_speedup.pdf"))
         plt.close()
 
     def _generate_statistical_markdown(self, stats):
-        md = f"# Reporte de Análisis Estadístico Global ({self.config.n_runs} Ejecuciones)\n\n"
-        md += "Este reporte analiza de forma estadística el rendimiento del modo Decomposition vs el modo Traditional.\n\n"
+        md = f"# Global Statistical Analysis Report ({self.config.n_runs} Runs)\n\n"
+        md += "This report statistically analyzes the performance of Decomposition mode vs Traditional mode.\n\n"
         
-        md += "## Métricas de Rendimiento (Media, Mediana, Desviación Estándar y Wilcoxon)\n\n"
-        md += "| Métrica | Media Decomp. | Mediana Decomp. | Desv. Est. Decomp. | Media Trad. | Mediana Trad. | Desv. Est. Trad. | p-value (Wilcoxon) | Significación (α=0.05) |\n"
+        md += "## Performance Metrics (Mean, Median, Standard Deviation and Wilcoxon)\n\n"
+        md += "| Metric | Mean Decomp. | Median Decomp. | Std. Dev. Decomp. | Mean Trad. | Median Trad. | Std. Dev. Trad. | p-value (Wilcoxon) | Significance (α=0.05) |\n"
         md += "|---|---|---|---|---|---|---|---|---|\n"
         
         comparisons = [
@@ -491,16 +496,16 @@ class ResultsManager:
             try:
                 res = scipy.stats.wilcoxon(d_valid, t_valid)
                 p_val = res.pvalue
-                sig = "✅ Significativo" if p_val < 0.05 else "❌ No Signif."
+                sig = "✅ Significant" if p_val < 0.05 else "❌ Not Signif."
             except Exception as e:
                 p_val = float('nan')
-                sig = "Error (val iguales)"
+                sig = "Error (equal vals)"
                 
             md += f"| **{name}** | {mean_d:.6f} | {median_d:.6f} | {std_d:.6f} | {mean_t:.6f} | {median_t:.6f} | {std_t:.6f} | {p_val:.4e} | {sig} |\n"
             
-        md += "\n## Análisis de Tiempos de Ejecución y Pruebas Estadísticas\n\n"
-        md += "A continuación se detallan los tiempos totales de ejecución (en segundos), la aceleración (Speedup) obtenida "
-        md += "y las comparaciones estadísticas mediante la prueba de rango con signo de Wilcoxon.\n\n"
+        md += "\n## Execution Times Analysis and Statistical Tests\n\n"
+        md += "The following details the total execution times (in seconds), the obtained Speedup "
+        md += "and the statistical comparisons using the Wilcoxon signed-rank test.\n\n"
         
         # Extracción y cálculo de estadísticas de tiempos
         local_nsga_times = np.array([m['max_local_nsga_time'] for m in self.all_metrics])
@@ -513,30 +518,30 @@ class ResultsManager:
         mean_dec, median_dec, std_dec = np.mean(decomp_total_times), np.median(decomp_total_times), np.std(decomp_total_times)
         mean_trad, median_trad, std_trad = np.mean(trad_total_times), np.median(trad_total_times), np.std(trad_total_times)
         
-        md += "### Resumen de Tiempos Totales (segundos)\n\n"
-        md += "| Componente | Media (s) | Mediana (s) | Desv. Est. (s) |\n"
+        md += "### Total Times Summary (seconds)\n\n"
+        md += "| Component | Mean (s) | Median (s) | Std. Dev. (s) |\n"
         md += "|---|---|---|---|\n"
-        md += f"| **Decomposition (Total Paralelo)** | {mean_dec:.4f} s | {median_dec:.4f} s | {std_dec:.4f} s |\n"
-        md += f"| &nbsp;&nbsp;&nbsp;&nbsp;*└─ NSGA-II más lento* | {mean_nsga:.4f} s | {median_nsga:.4f} s | {std_nsga:.4f} s |\n"
-        md += f"| &nbsp;&nbsp;&nbsp;&nbsp;*└─ Agregación más lenta* | {mean_agg:.4f} s | {median_agg:.4f} s | {std_agg:.4f} s |\n"
-        md += f"| **Traditional (Total Secuencial)** | {mean_trad:.4f} s | {median_trad:.4f} s | {std_trad:.4f} s |\n\n"
+        md += f"| **Decomposition (Parallel Total)** | {mean_dec:.4f} s | {median_dec:.4f} s | {std_dec:.4f} s |\n"
+        md += f"| &nbsp;&nbsp;&nbsp;&nbsp;*└─ Slowest NSGA-II* | {mean_nsga:.4f} s | {median_nsga:.4f} s | {std_nsga:.4f} s |\n"
+        md += f"| &nbsp;&nbsp;&nbsp;&nbsp;*└─ Slowest Aggregation* | {mean_agg:.4f} s | {median_agg:.4f} s | {std_agg:.4f} s |\n"
+        md += f"| **Traditional (Sequential Total)** | {mean_trad:.4f} s | {median_trad:.4f} s | {std_trad:.4f} s |\n\n"
         
         # Pruebas de Wilcoxon para tiempos
         try:
             res_total = scipy.stats.wilcoxon(decomp_total_times, trad_total_times)
             p_val_total = res_total.pvalue
-            sig_total = "✅ Significativo" if p_val_total < 0.05 else "❌ No Signif."
+            sig_total = "✅ Significant" if p_val_total < 0.05 else "❌ Not Signif."
         except Exception as e:
             p_val_total = float('nan')
-            sig_total = "Error (val iguales / muestras pequeñas)"
+            sig_total = "Error (equal vals / small samples)"
             
         try:
             res_nsga = scipy.stats.wilcoxon(local_nsga_times, trad_total_times)
             p_val_nsga = res_nsga.pvalue
-            sig_nsga = "✅ Significativo" if p_val_nsga < 0.05 else "❌ No Signif."
+            sig_nsga = "✅ Significant" if p_val_nsga < 0.05 else "❌ Not Signif."
         except Exception as e:
             p_val_nsga = float('nan')
-            sig_nsga = "Error (val iguales / muestras pequeñas)"
+            sig_nsga = "Error (equal vals / small samples)"
             
         # Speedups
         speedups_total = stats['speedup']
@@ -545,34 +550,34 @@ class ResultsManager:
         mean_sp_tot, median_sp_tot, std_sp_tot = np.mean(speedups_total), np.median(speedups_total), np.std(speedups_total)
         mean_sp_nsga, median_sp_nsga, std_sp_nsga = np.mean(speedups_nsga_only), np.median(speedups_nsga_only), np.std(speedups_nsga_only)
         
-        md += "### Comparación de Aceleración y Wilcoxon (Decomp vs Traditional)\n\n"
-        md += "Se presentan dos comparaciones estadísticas para el tiempo de ejecución:\n\n"
+        md += "### Speedup and Wilcoxon Comparison (Decomp vs Traditional)\n\n"
+        md += "Two statistical comparisons for execution time are presented:\n\n"
         
-        md += "#### 1. Comparación de Tiempos Totales (Paralelo Total con Agregación vs Secuencial Tradicional)\n"
-        md += "Compara el tiempo paralelo completo de la descomposición (NSGA-II más lento + paso de agregación más lento) frente al tiempo secuencial total tradicional:\n\n"
-        md += "| Métrica | Valor |\n"
+        md += "#### 1. Total Times Comparison (Parallel Total with Aggregation vs Traditional Sequential)\n"
+        md += "Compares the full parallel time of decomposition (slowest NSGA-II + slowest aggregation step) against the total traditional sequential time:\n\n"
+        md += "| Metric | Value |\n"
         md += "|---|---|\n"
         md += f"| **p-value (Wilcoxon)** | {p_val_total:.4e} |\n"
-        md += f"| **Significación (α=0.05)** | {sig_total} |\n"
-        md += f"| **Speedup Medio** | {mean_sp_tot:.2f}x |\n"
-        md += f"| **Speedup Mediana** | {median_sp_tot:.2f}x |\n"
-        md += f"| **Desviación Estándar Speedup** | {std_sp_tot:.2f} |\n\n"
+        md += f"| **Significance (α=0.05)** | {sig_total} |\n"
+        md += f"| **Mean Speedup** | {mean_sp_tot:.2f}x |\n"
+        md += f"| **Median Speedup** | {median_sp_tot:.2f}x |\n"
+        md += f"| **Speedup Standard Deviation** | {std_sp_tot:.2f} |\n\n"
         
-        md += "#### 2. Comparación de Algoritmo Genético (Solo NSGA-II más lento de Decomp vs Traditional)\n"
-        md += "Compara únicamente los tiempos dedicados a la evolución de NSGA-II, aislando el impacto del operador de agregación jerárquica:\n\n"
-        md += "| Métrica | Valor |\n"
+        md += "#### 2. Genetic Algorithm Comparison (Only Slowest NSGA-II from Decomp vs Traditional)\n"
+        md += "Compares only the times dedicated to NSGA-II evolution, isolating the impact of the hierarchical aggregation operator:\n\n"
+        md += "| Metric | Value |\n"
         md += "|---|---|\n"
         md += f"| **p-value (Wilcoxon)** | {p_val_nsga:.4e} |\n"
-        md += f"| **Significación (α=0.05)** | {sig_nsga} |\n"
-        md += f"| **Speedup Medio** | {mean_sp_nsga:.2f}x |\n"
-        md += f"| **Speedup Mediana** | {median_sp_nsga:.2f}x |\n"
-        md += f"| **Desviación Estándar Speedup** | {std_sp_nsga:.2f} |\n\n"
+        md += f"| **Significance (α=0.05)** | {sig_nsga} |\n"
+        md += f"| **Mean Speedup** | {mean_sp_nsga:.2f}x |\n"
+        md += f"| **Median Speedup** | {median_sp_nsga:.2f}x |\n"
+        md += f"| **Speedup Standard Deviation** | {std_sp_nsga:.2f} |\n\n"
         
         file_path = os.path.join(self.base_output_dir, "wilcoxon_statistical_report.md")
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(md)
             
-        print(f"\nReporte estadístico generado en: {file_path}\n")
+        print(f"\nStatistical report generated at: {file_path}\n")
 
     def _generate_optimization_evolution_plot(self):
         """
@@ -658,7 +663,7 @@ class ResultsManager:
         fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 10))
         
         # Gráfica de Latencia
-        for key, color, label in [('min', 'green', 'Mínimo'), ('med', 'blue', 'Mediana'), ('max', 'red', 'Máximo')]:
+        for key, color, label in [('min', 'green', 'Min'), ('med', 'blue', 'Median'), ('max', 'red', 'Max')]:
             t_m, t_s = get_stats(trad_lat[key])
             ax1.plot(x_trad, t_m, color=color, linestyle='-', alpha=0.7, label=f"Trad {label}")
             ax1.fill_between(x_trad, t_m - t_s, t_m + t_s, color=color, alpha=0.1)
@@ -667,15 +672,15 @@ class ResultsManager:
             ax1.plot(x_dec, d_m, color=color, linestyle='--', marker='o', alpha=0.9, label=f"Decomp {label}")
             ax1.fill_between(x_dec, d_m - d_s, d_m + d_s, color=color, alpha=0.2)
             
-        ax1.set_title("Evolución de Latencia vs Generaciones")
-        ax1.set_xlabel("Generaciones")
-        ax1.set_ylabel("Valor de Latencia")
+        ax1.set_title("Latency Evolution vs Generations")
+        ax1.set_xlabel("Generations")
+        ax1.set_ylabel("Latency Value")
         ax1.set_yscale('log', nonpositive='clip')
         ax1.grid(True, linestyle='--', alpha=0.7)
         ax1.legend(loc='upper right')
         
         # Gráfica de Coste
-        for key, color, label in [('min', 'green', 'Mínimo'), ('med', 'blue', 'Mediana'), ('max', 'red', 'Máximo')]:
+        for key, color, label in [('min', 'green', 'Min'), ('med', 'blue', 'Median'), ('max', 'red', 'Max')]:
             t_m, t_s = get_stats(trad_cost[key])
             ax2.plot(x_trad, t_m, color=color, linestyle='-', alpha=0.7, label=f"Trad {label}")
             ax2.fill_between(x_trad, t_m - t_s, t_m + t_s, color=color, alpha=0.1)
@@ -684,9 +689,9 @@ class ResultsManager:
             ax2.plot(x_dec, d_m, color=color, linestyle='--', marker='o', alpha=0.9, label=f"Decomp {label}")
             ax2.fill_between(x_dec, d_m - d_s, d_m + d_s, color=color, alpha=0.2)
             
-        ax2.set_title("Evolución de Coste vs Generaciones")
-        ax2.set_xlabel("Generaciones")
-        ax2.set_ylabel("Valor de Coste")
+        ax2.set_title("Cost Evolution vs Generations")
+        ax2.set_xlabel("Generations")
+        ax2.set_ylabel("Cost Value")
         ax2.set_yscale('log', nonpositive='clip')
         ax2.grid(True, linestyle='--', alpha=0.7)
         ax2.legend(loc='upper right')
@@ -699,27 +704,27 @@ class ResultsManager:
         fig_trad, (ax1_t, ax2_t) = plt.subplots(2, 1, figsize=(12, 10))
         
         # Gráfica de Latencia Tradicional
-        for key, color, label in [('min', 'green', 'Mínimo'), ('med', 'blue', 'Mediana'), ('max', 'red', 'Máximo')]:
+        for key, color, label in [('min', 'green', 'Min'), ('med', 'blue', 'Median'), ('max', 'red', 'Max')]:
             t_m, t_s = get_stats(trad_lat[key])
             ax1_t.plot(x_trad, t_m, color=color, linestyle='-', alpha=0.7, label=f"Trad {label}")
             ax1_t.fill_between(x_trad, t_m - t_s, t_m + t_s, color=color, alpha=0.1)
             
-        ax1_t.set_title("Evolución de Latencia vs Generaciones (Tradicional Global)")
-        ax1_t.set_xlabel("Generaciones")
-        ax1_t.set_ylabel("Valor de Latencia")
+        ax1_t.set_title("Latency Evolution vs Generations (Global Traditional)")
+        ax1_t.set_xlabel("Generations")
+        ax1_t.set_ylabel("Latency Value")
         ax1_t.set_yscale('log', nonpositive='clip')
         ax1_t.grid(True, linestyle='--', alpha=0.7)
         ax1_t.legend(loc='upper right')
         
         # Gráfica de Coste Tradicional
-        for key, color, label in [('min', 'green', 'Mínimo'), ('med', 'blue', 'Mediana'), ('max', 'red', 'Máximo')]:
+        for key, color, label in [('min', 'green', 'Min'), ('med', 'blue', 'Median'), ('max', 'red', 'Max')]:
             t_m, t_s = get_stats(trad_cost[key])
             ax2_t.plot(x_trad, t_m, color=color, linestyle='-', alpha=0.7, label=f"Trad {label}")
             ax2_t.fill_between(x_trad, t_m - t_s, t_m + t_s, color=color, alpha=0.1)
             
-        ax2_t.set_title("Evolución de Coste vs Generaciones (Tradicional Global)")
-        ax2_t.set_xlabel("Generaciones")
-        ax2_t.set_ylabel("Valor de Coste")
+        ax2_t.set_title("Cost Evolution vs Generations (Global Traditional)")
+        ax2_t.set_xlabel("Generations")
+        ax2_t.set_ylabel("Cost Value")
         ax2_t.set_yscale('log', nonpositive='clip')
         ax2_t.grid(True, linestyle='--', alpha=0.7)
         ax2_t.legend(loc='upper right')
