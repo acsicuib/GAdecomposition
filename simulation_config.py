@@ -78,7 +78,8 @@ class SimulationConfig:
         self.generations = 100
         self.aggregator_front_size = self.pop_size
 
-        # 2. Cargar desde el archivo JSON si existe
+        # 2. Load from JSON file
+        print(f"Loading configuration from '{config_path}'...")
         if os.path.exists(config_path):
             try:
                 import re
@@ -87,6 +88,7 @@ class SimulationConfig:
                 # Strip out inline comments starting with //
                 content_no_comments = re.sub(r'(?m)^\s*//.*$|//.*$', '', content)
                 data = json.loads(content_no_comments)
+
                 
                 # Asignar experiment_id si existe
                 if "experiment_id" in data:
@@ -169,5 +171,13 @@ class SimulationConfig:
                     self.pop_size = gen.get("pop_size", self.pop_size)
                     self.generations = gen.get("generations", self.generations)
                     self.aggregator_front_size = gen.get("aggregator_front_size", self.pop_size)
+                print(f"Successfully loaded configuration from '{config_path}'.")
             except Exception as e:
-                print(f"Error al cargar el archivo de configuración {config_path}: {e}. Usando valores por defecto.")
+                print(f"Error loading configuration file '{config_path}': {e}. Using default fallback values.")
+        else:
+            if config_path != "simulation_config.json":
+                print(f"CRITICAL ERROR: Configuration file '{config_path}' NOT found! Exiting.")
+                import sys
+                sys.exit(1)
+            else:
+                print(f"WARNING: Configuration file 'simulation_config.json' not found. Using default fallback values.")
