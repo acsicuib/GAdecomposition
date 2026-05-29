@@ -70,11 +70,11 @@
         "beta": 0.6, // Weight for the Jaccard similarity in the hybrid distance metric (alpha + beta = 1). Unit: Weight ratio.
         "k_levels": 2, // Number of dendrogram levels to go up when creating submatrices. Unit: Count.
         "k_steps": 1, // Step size when walking up the hierarchy during aggregation. Unit: Count.
-        "n_runs": 30 // Number of repeated independent executions of the genetic algorithm to perform. Unit: Count.
+        "n_runs": 1 // Number of repeated independent executions of the genetic algorithm to perform. Unit: Count.
     },
     "genetic": { // NSGA-II execution parameters.
         "pop_size": 100, // Population size for each NSGA-II run. Unit: Count.
-        "generations": 300, // Number of generations (iterations) for NSGA-II. Unit: Count.
+        "generations": 1, // Number of generations (iterations) for NSGA-II. Unit: Count.
         "aggregator_front_size": 30 // Size of the pareto front to keep during the aggregation step. Unit: Count.
     }
 }
