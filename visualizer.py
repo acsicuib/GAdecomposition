@@ -64,7 +64,6 @@ class Visualizer:
         nx.draw_networkx_edges(G, pos, alpha=0.3)
         nx.draw_networkx_labels(G, pos, font_size=f_font)
         
-        plt.title(f"Continuum Topology (Infra Seed: {self.config.seed_infra})")
         plt.legend(scatterpoints=1)
         plt.axis('off')
         
@@ -174,7 +173,6 @@ class Visualizer:
             
         nx.draw_networkx_labels(G, pos, labels, font_size=f_font)
         
-        plt.title(f"Detailed Topology (Mode: {getattr(self.config, 'generation_mode', 'uniform')}, Infra Seed: {self.config.seed_infra})")
         plt.legend(scatterpoints=1)
         plt.axis('off')
         
@@ -268,7 +266,6 @@ class Visualizer:
         nx.draw_networkx_edges(G, pos, alpha=0.3)
         nx.draw_networkx_labels(G, pos, labels, font_size=f_font)
         
-        plt.title(title)
         plt.legend(scatterpoints=1)
         plt.axis('off')
         
