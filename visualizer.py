@@ -13,9 +13,16 @@ class Visualizer:
     def draw_infrastructure(self, output_path=None):
         """Dibuja el grafo con un layout consistente basado en la semilla de infra (vista simple)."""
         G = self.infra.graph
-        pos = nx.spring_layout(G, seed=self.config.seed_infra)
+        n_nodes = len(G.nodes())
         
-        plt.figure(figsize=(12, 8))
+        # Dynamic spring layout distance k to avoid overlaps
+        k_val = 2.5 / (n_nodes ** 0.5) if n_nodes > 0 else 0.1
+        pos = nx.spring_layout(G, seed=self.config.seed_infra, k=k_val, iterations=100)
+        
+        # Dynamic figure size
+        fig_width = max(12, min(36, int(n_nodes * 0.15)))
+        fig_height = max(8, min(24, int(n_nodes * 0.10)))
+        plt.figure(figsize=(fig_width, fig_height))
         
         nodes = list(G.nodes())
         user_nodes = list(self.workload.user_assignments.keys())
@@ -31,23 +38,31 @@ class Visualizer:
         # Fallback para modos no-tiered
         if not fog_nodes and not edge_no_users:
             edge_no_users = [n for n in nodes if n not in cloud_nodes and n not in user_nodes]
+            
+        # Scale node size based on number of nodes
+        size_scale = max(0.15, min(1.0, 50.0 / n_nodes)) if n_nodes > 0 else 1.0
+        c_size = int(800 * size_scale)
+        f_size = int(600 * size_scale)
+        e_size = int(500 * size_scale)
+        u_size = int(500 * size_scale)
+        f_font = max(4, min(10, int(300 / n_nodes))) if n_nodes > 0 else 10
 
         if cloud_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=cloud_nodes, 
-                                   node_color='red', node_size=800, label='Cloud')
+                                   node_color='red', node_size=c_size, label='Cloud')
         if fog_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=fog_nodes, 
-                                   node_color='orange', node_size=600, label='Fog')
+                                   node_color='orange', node_size=f_size, label='Fog')
         if edge_no_users:
             nx.draw_networkx_nodes(G, pos, nodelist=edge_no_users, 
-                                   node_color='skyblue', node_size=500, label='Edge (No users)')
+                                   node_color='skyblue', node_size=e_size, label='Edge (No users)')
         if user_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=user_nodes, 
-                                   node_color='lightgreen', node_size=500, 
-                                   edgecolors='green', linewidths=2, label='Edge (With users)')
+                                   node_color='lightgreen', node_size=u_size, 
+                                   edgecolors='green', linewidths=max(0.5, 2.0 * size_scale), label='Edge (With users)')
 
         nx.draw_networkx_edges(G, pos, alpha=0.3)
-        nx.draw_networkx_labels(G, pos, font_size=10)
+        nx.draw_networkx_labels(G, pos, font_size=f_font)
         
         plt.title(f"Continuum Topology (Infra Seed: {self.config.seed_infra})")
         plt.legend(scatterpoints=1)
@@ -62,9 +77,16 @@ class Visualizer:
     def draw_infrastructure_detailed(self, output_path=None):
         """Dibuja el grafo mostrando parámetros detallados de nodos, enlaces y usuarios."""
         G = self.infra.graph
-        pos = nx.spring_layout(G, seed=self.config.seed_infra)
+        n_nodes = len(G.nodes())
         
-        plt.figure(figsize=(16, 12))
+        # Dynamic spring layout distance k to avoid overlaps
+        k_val = 3.5 / (n_nodes ** 0.5) if n_nodes > 0 else 0.1
+        pos = nx.spring_layout(G, seed=self.config.seed_infra, k=k_val, iterations=100)
+        
+        # Dynamic figure size (much larger for detailed view with text!)
+        fig_width = max(16, min(48, int(n_nodes * 0.20)))
+        fig_height = max(12, min(36, int(n_nodes * 0.15)))
+        plt.figure(figsize=(fig_width, fig_height))
         
         nodes = list(G.nodes())
         user_nodes = list(self.workload.user_assignments.keys())
@@ -81,32 +103,41 @@ class Visualizer:
         if not fog_nodes and not edge_no_users:
             edge_no_users = [n for n in nodes if n not in cloud_nodes and n not in user_nodes]
 
+        # Scale node size based on number of nodes
+        size_scale = max(0.15, min(1.0, 50.0 / n_nodes)) if n_nodes > 0 else 1.0
+        c_size = int(2200 * size_scale)
+        f_size = int(1800 * size_scale)
+        e_size = int(1500 * size_scale)
+        u_size = int(1700 * size_scale)
+        f_font = max(3, min(7, int(250 / n_nodes))) if n_nodes > 0 else 7
+
         if cloud_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=cloud_nodes, 
-                                   node_color='red', node_size=2200, label='Cloud')
+                                   node_color='red', node_size=c_size, label='Cloud')
         if fog_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=fog_nodes, 
-                                   node_color='orange', node_size=1800, label='Fog')
+                                   node_color='orange', node_size=f_size, label='Fog')
         if edge_no_users:
             nx.draw_networkx_nodes(G, pos, nodelist=edge_no_users, 
-                                   node_color='skyblue', node_size=1500, label='Edge (No users)')
+                                   node_color='skyblue', node_size=e_size, label='Edge (No users)')
         if user_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=user_nodes, 
-                                   node_color='lightgreen', node_size=1700, 
-                                   edgecolors='green', linewidths=2, label='Edge (With users)')
+                                   node_color='lightgreen', node_size=u_size, 
+                                   edgecolors='green', linewidths=max(0.5, 2.0 * size_scale), label='Edge (With users)')
 
         nx.draw_networkx_edges(G, pos, alpha=0.3)
         
-        # Dibujar etiquetas de enlaces (latencias)
-        edge_labels = nx.get_edge_attributes(G, 'latency')
-        edge_labels = {k: f"{v:.1f}ms" for k, v in edge_labels.items()}
-        nx.draw_networkx_edge_labels(
-            G, pos, 
-            edge_labels=edge_labels, 
-            font_size=6, 
-            font_color='dimgrey',
-            bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=1)
-        )
+        # Dibujar etiquetas de enlaces (latencias) - Omitir si hay demasiados enlaces para evitar colapso visual
+        if n_nodes <= 60:
+            edge_labels = nx.get_edge_attributes(G, 'latency')
+            edge_labels = {k: f"{v:.1f}ms" for k, v in edge_labels.items()}
+            nx.draw_networkx_edge_labels(
+                G, pos, 
+                edge_labels=edge_labels, 
+                font_size=max(3, min(6, int(180 / n_nodes))) if n_nodes > 0 else 6, 
+                font_color='dimgrey',
+                bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=1)
+            )
         
         # Custom labels para nodos
         labels = {}
@@ -141,7 +172,7 @@ class Visualizer:
             
             labels[n] = "\n".join(label_parts)
             
-        nx.draw_networkx_labels(G, pos, labels, font_size=7)
+        nx.draw_networkx_labels(G, pos, labels, font_size=f_font)
         
         plt.title(f"Detailed Topology (Mode: {getattr(self.config, 'generation_mode', 'uniform')}, Infra Seed: {self.config.seed_infra})")
         plt.legend(scatterpoints=1)
@@ -156,9 +187,16 @@ class Visualizer:
     def draw_solution(self, solution, template, output_path, title="Solution"):
         """Dibuja el grafo mostrando los servicios alojados en cada nodo según la solución."""
         G = self.infra.graph
-        pos = nx.spring_layout(G, seed=self.config.seed_infra)
+        n_nodes = len(G.nodes())
         
-        plt.figure(figsize=(14, 10))
+        # Dynamic spring layout distance k to avoid overlaps
+        k_val = 3.0 / (n_nodes ** 0.5) if n_nodes > 0 else 0.1
+        pos = nx.spring_layout(G, seed=self.config.seed_infra, k=k_val, iterations=100)
+        
+        # Dynamic figure size
+        fig_width = max(14, min(42, int(n_nodes * 0.18)))
+        fig_height = max(10, min(30, int(n_nodes * 0.13)))
+        plt.figure(figsize=(fig_width, fig_height))
         
         # Mapear nodo a servicios alojados
         node_to_services = {}
@@ -205,22 +243,30 @@ class Visualizer:
         if not fog_nodes and not edge_no_users:
             edge_no_users = [n for n in nodes if n not in cloud_nodes and n not in user_nodes]
 
+        # Scale node size based on number of nodes
+        size_scale = max(0.15, min(1.0, 50.0 / n_nodes)) if n_nodes > 0 else 1.0
+        c_size = int(1200 * size_scale)
+        f_size = int(1000 * size_scale)
+        e_size = int(800 * size_scale)
+        u_size = int(800 * size_scale)
+        f_font = max(3, min(8, int(250 / n_nodes))) if n_nodes > 0 else 8
+
         if cloud_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=cloud_nodes, 
-                                   node_color='red', node_size=1200, label='Cloud')
+                                   node_color='red', node_size=c_size, label='Cloud')
         if fog_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=fog_nodes, 
-                                   node_color='orange', node_size=1000, label='Fog')
+                                   node_color='orange', node_size=f_size, label='Fog')
         if edge_no_users:
             nx.draw_networkx_nodes(G, pos, nodelist=edge_no_users, 
-                                   node_color='skyblue', node_size=800, label='Edge (No users)')
+                                   node_color='skyblue', node_size=e_size, label='Edge (No users)')
         if user_nodes:
             nx.draw_networkx_nodes(G, pos, nodelist=user_nodes, 
-                                   node_color='lightgreen', node_size=800, 
-                                   edgecolors='green', linewidths=2, label='Edge (With users)')
+                                   node_color='lightgreen', node_size=u_size, 
+                                   edgecolors='green', linewidths=max(0.5, 2.0 * size_scale), label='Edge (With users)')
 
         nx.draw_networkx_edges(G, pos, alpha=0.3)
-        nx.draw_networkx_labels(G, pos, labels, font_size=8)
+        nx.draw_networkx_labels(G, pos, labels, font_size=f_font)
         
         plt.title(title)
         plt.legend(scatterpoints=1)

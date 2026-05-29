@@ -243,13 +243,26 @@ def run_plotting_phase(config, rm, infra, workload, Z, submatrices):
     
     # 1. Visualización General
     rm.output_dir = rm.base_output_dir
-    plt.figure(figsize=(10, 5))
-    dendrogram(Z, labels=list(infra.graph.nodes()))
+    n_nodes = config.n_nodes
+    fig_width = max(10, min(40, n_nodes * 0.15))
+    plt.figure(figsize=(fig_width, 6))
+    
+    # Calculate a clean dynamic font size for labels
+    dynamic_font_size = max(2.0, min(10.0, 300.0 / n_nodes))
+    
+    dendrogram(
+        Z, 
+        labels=list(infra.graph.nodes()),
+        leaf_rotation=90.0,
+        leaf_font_size=dynamic_font_size
+    )
     plt.title(f"Hybrid Hierarchical Clustering (Latency + App Affinity)")
     plt.xlabel("Node ID")
     plt.ylabel("Hybrid Distance")
+    plt.tight_layout()
     plt.savefig(os.path.join(rm.base_output_dir, "clustering_dendrogram.pdf"), format='pdf')
     plt.close()
+
 
     viz = Visualizer(infra, workload, config)
     
