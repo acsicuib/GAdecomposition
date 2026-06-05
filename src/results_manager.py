@@ -1,3 +1,17 @@
+"""
+===============================================================================
+File: results_manager.py
+Description: Handles the storage, retrieval, plotting, and statistical analysis (e.g., Wilcoxon tests, Pareto comparisons) of the simulation metrics.
+Role: Class Definition (Utility)
+Execution: Imported as a module
+Inputs: Simulation runs metrics, Fitness lists.
+Outputs: Pickle logs (global_metrics.pkl), PDFs (boxplots, pareto fronts).
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import os
 import pickle
 import datetime
@@ -30,12 +44,12 @@ class ResultsManager:
             self.output_dir = load_dir
         else:
             self.timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            self.base_output_dir = f"results/{self.experiment_id}_{self.timestamp}"
+            self.base_output_dir = f"../results/{self.experiment_id}_{self.timestamp}"
             self.output_dir = self.base_output_dir
             
             os.makedirs(self.base_output_dir, exist_ok=True)
             
-            config_path = getattr(config, '_config_path', 'simulation_config.json')
+            config_path = getattr(config, '_config_path', '../config/simulation_config.json')
             if os.path.exists(config_path):
                 import shutil
                 shutil.copy(config_path, os.path.join(self.base_output_dir, "simulation_config.json"))

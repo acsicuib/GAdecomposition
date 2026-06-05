@@ -1,3 +1,17 @@
+"""
+===============================================================================
+File: nsga2.py
+Description: Implements the Non-dominated Sorting Genetic Algorithm II (NSGA-II) logic for optimizing the placement of applications in the infrastructure.
+Role: Class Definition (Algorithm)
+Execution: Imported as a module
+Inputs: Infrastructure definitions, Workload data, Population templates.
+Outputs: Pareto fronts and non-dominated individuals (solutions).
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import numpy as np
 
 from evaluate_solution import EvaluateSolution

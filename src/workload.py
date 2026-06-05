@@ -1,3 +1,17 @@
+"""
+===============================================================================
+File: workload.py
+Description: Generates the user and application demands (workloads) that need to be deployed and processed within the infrastructure.
+Role: Class Definition (Model)
+Execution: Imported as a module
+Inputs: Simulation Configuration parameters.
+Outputs: Application vectors, user demand dictionaries.
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import networkx as nx
 import random
 import numpy as np

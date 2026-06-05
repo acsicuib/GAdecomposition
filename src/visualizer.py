@@ -1,3 +1,17 @@
+"""
+===============================================================================
+File: visualizer.py
+Description: Provides plotting capabilities to visualize network topologies, application clusters, and deployment schemas.
+Role: Class Definition (Utility)
+Execution: Imported as a module
+Inputs: Network graphs, Dendrogram data.
+Outputs: Matplotlib figures and visual schema images.
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import matplotlib.pyplot as plt
 import networkx as nx
 from infrastructure import Infrastructure

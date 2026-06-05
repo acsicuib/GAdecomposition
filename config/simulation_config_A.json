@@ -1,6 +1,6 @@
 {
-    "experiment_id": "expB", // Name or identifier of the experiment. Type: String.
-    "generation_mode": "geographical_aware", // Topology generation mode. Values: "uniform_generation", "tiered_zones", "geographical_aware".
+    "experiment_id": "expA", // Name or identifier of the experiment. Type: String.
+    "generation_mode": "tiered_zones", // Topology generation mode. Values: "uniform_generation", "tiered_zones", "geographical_aware".
     "decomposition": { // Submatrix decomposition settings.
         "mode": "pruned", // Decomposition mode. Values: "standard" (no limits), "pruned" (limits maximum size).
         "pruning_threshold_percentage": 0.4 // Max submatrix size as percentage of total nodes. Unit: Percentage [0.0, 1.0]. Only valid if decomposition.mode=pruned.
@@ -17,7 +17,7 @@
         "nsga2": 404 // Seed for the NSGA-II genetic algorithm. Type: Integer.
     },
     "infrastructure": { // Physical infrastructure generation parameters.
-        "n_nodes": 150, // Total number of nodes in the system. Unit: Count.
+        "n_nodes": 30, // Total number of nodes in the system. Unit: Count.
         "m_edges": 2, // Number of edges to attach from a new node to existing nodes. Unit: Count. Only valid if generation_mode=uniform_generation.
         "min_node_cap": 5, // Minimum capacity of a general node. Unit: Generic capacity unit.
         "max_node_cap": 30, // Maximum capacity of a general node. Unit: Generic capacity unit.
@@ -53,9 +53,9 @@
         }
     },
     "workload": { // Workload (applications and demands) generation parameters.
-        "n_apps": 5, // Total number of unique applications to deploy. Unit: Count.
-        "n_users": 20, // Total number of users creating requests in the system. Unit: Count.
-        "edge_nodes_with_users_percentage": 0.2, // Percentage of TOTAL network nodes that will host users. Unit: Percentage [0.0, 1.0].
+        "n_apps": 8, // Total number of unique applications to deploy. Unit: Count.
+        "n_users": 250, // Total number of users creating requests in the system. Unit: Count.
+        "edge_nodes_with_users_percentage": 0.5, // Percentage of TOTAL network nodes that will host users. Unit: Percentage [0.0, 1.0].
         "min_app_demand": 2, // Minimum capacity required by a single instance of an app. Unit: Generic capacity unit.
         "max_app_demand": 10, // Maximum capacity required by a single instance of an app. Unit: Generic capacity unit.
         "min_app_execution_load": 1.0, // Minimum execution load (cost weight) for an app. Unit: Generic computation cost weight.
@@ -70,11 +70,11 @@
         "beta": 0.6, // Weight for the Jaccard similarity in the hybrid distance metric (alpha + beta = 1). Unit: Weight ratio.
         "k_levels": 2, // Number of dendrogram levels to go up when creating submatrices. Unit: Count.
         "k_steps": 1, // Step size when walking up the hierarchy during aggregation. Unit: Count.
-        "n_runs": 1 // Number of repeated independent executions of the genetic algorithm to perform. Unit: Count.
+        "n_runs": 30 // Number of repeated independent executions of the genetic algorithm to perform. Unit: Count.
     },
     "genetic": { // NSGA-II execution parameters.
         "pop_size": 100, // Population size for each NSGA-II run. Unit: Count.
-        "generations": 1, // Number of generations (iterations) for NSGA-II. Unit: Count.
+        "generations": 200, // Number of generations (iterations) for NSGA-II. Unit: Count.
         "aggregator_front_size": 30 // Size of the pareto front to keep during the aggregation step. Unit: Count.
     }
 }

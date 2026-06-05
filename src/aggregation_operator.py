@@ -1,3 +1,17 @@
+"""
+===============================================================================
+File: aggregation_operator.py
+Description: Manages the aggregation logic to merge and map services within the clustered submatrices, reducing the computational domain.
+Role: Class Definition (Operator)
+Execution: Imported as a module
+Inputs: Hierarchical clustering linkage data, Submatrix templates.
+Outputs: Aggregated services mappings.
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import numpy as np
 from evaluate_solution import EvaluateSolution
 from nsga2 import NSGA2

@@ -1,9 +1,23 @@
+"""
+===============================================================================
+File: simulation_config.py
+Description: Parses and validates the JSON configuration files to standardize input parameters for the simulation components.
+Role: Class Definition (Configuration)
+Execution: Imported as a module
+Inputs: JSON config files.
+Outputs: SimulationConfig objects containing fallback/parsed defaults.
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import json
 import os
 
 class SimulationConfig:
     """Configuración cargada desde un archivo JSON con valores por defecto."""
-    def __init__(self, config_path="simulation_config.json"):
+    def __init__(self, config_path="../config/simulation_config.json"):
         self._config_path = config_path
         
         # 1. Definir valores por defecto (fallback)
@@ -175,9 +189,9 @@ class SimulationConfig:
             except Exception as e:
                 print(f"Error loading configuration file '{config_path}': {e}. Using default fallback values.")
         else:
-            if config_path != "simulation_config.json":
+            if config_path != "../config/simulation_config.json":
                 print(f"CRITICAL ERROR: Configuration file '{config_path}' NOT found! Exiting.")
                 import sys
                 sys.exit(1)
             else:
-                print(f"WARNING: Configuration file 'simulation_config.json' not found. Using default fallback values.")
+                print(f"WARNING: Configuration file '../config/simulation_config.json' not found. Using default fallback values.")

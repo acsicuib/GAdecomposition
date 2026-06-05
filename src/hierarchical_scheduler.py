@@ -1,3 +1,17 @@
+"""
+===============================================================================
+File: hierarchical_scheduler.py
+Description: Performs clustering and hierarchical aggregation of applications based on network latency and application similarity constraints.
+Role: Class Definition (Scheduler)
+Execution: Imported as a module
+Inputs: Infrastructure graphs, Workload vectors.
+Outputs: Dendrograms, Linkage matrices, and Pruned clustering thresholds.
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import numpy as np
 import networkx as nx
 from scipy.spatial.distance import pdist, squareform, jaccard

@@ -1,3 +1,17 @@
+"""
+===============================================================================
+File: main.py
+Description: Orchestrates the entire simulation process, including setup, genetic algorithm execution, recovery mechanisms, and statistical reporting.
+Role: Main Entry Point
+Execution: python src/main.py [optional_config_path]
+Inputs: JSON Configuration File (default: ../config/simulation_config.json)
+Outputs: Simulation logs, pickled metrics, Submatrices summaries, Wilcoxon statistical reports.
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import networkx as nx
 import numpy as np
 import random
@@ -88,7 +102,7 @@ def print_submatrices_summary(submatrices, config, rm=None):
     print("="*70 + "\n")
 
 def get_latest_results_dir():
-    dirs = glob.glob("results/*_*")
+    dirs = glob.glob("../results/*_*")
     if not dirs:
         return None
     # Sort by timestamp (the end of the dir name)
@@ -323,7 +337,7 @@ def run_plotting_phase(config, rm, infra, workload, Z, submatrices):
 
 if __name__ == "__main__":
     import sys
-    config_file = "simulation_config.json"
+    config_file = "../config/simulation_config.json"
     if len(sys.argv) > 1:
         config_file = sys.argv[1]
         
@@ -339,7 +353,7 @@ if __name__ == "__main__":
         if not load_dir or load_dir == "latest":
             load_dir = get_latest_results_dir()
             if not load_dir:
-                print("Error: No results directory found in 'results/'")
+                print("Error: No results directory found in '../results/'")
                 exit(1)
             print(f"Recovering from the latest results directory: {load_dir}")
         else:
@@ -411,7 +425,7 @@ if __name__ == "__main__":
         if not load_dir or load_dir == "latest":
             load_dir = get_latest_results_dir()
             if not load_dir:
-                print("Error: No results directory found in 'results/'")
+                print("Error: No results directory found in '../results/'")
                 exit(1)
             print(f"Using the latest results directory: {load_dir}")
         else:
@@ -436,5 +450,3 @@ if __name__ == "__main__":
         
         print_submatrices_summary(submatrices, config, rm)
         
-    if config.generate_plots:
-        run_plotting_phase(config, rm, infra, workload, Z, submatrices)

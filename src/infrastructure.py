@@ -1,3 +1,17 @@
+"""
+===============================================================================
+File: infrastructure.py
+Description: Generates and models the network topology (Cloud, Fog, Edge tiers) and resource capacities of nodes.
+Role: Class Definition (Model)
+Execution: Imported as a module
+Inputs: Simulation Configuration parameters.
+Outputs: NetworkX graphs, Distance matrices.
+
+Authors: Carlos Guerrero and Isaac Lera
+Date: June 2026
+License: MIT License
+===============================================================================
+"""
 import networkx as nx
 import random
 from simulation_config import SimulationConfig
