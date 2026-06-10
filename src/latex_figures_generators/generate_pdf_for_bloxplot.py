@@ -3,9 +3,9 @@
 File: generate_pdf_for_bloxplot.py
 Description: Standalone script to generate JCR-ready publication-quality boxplot PDFs comparing multiple algorithmic metrics.
 Role: Plotting Script
-Execution: python src/generate_pdf_for_bloxplot.py
+Execution: python src/latex_figures_generators/generate_pdf_for_bloxplot.py
 Inputs: global_metrics.pkl files from different experiments.
-Outputs: boxplot_metrics_[A|B|C].pdf files.
+Outputs: boxplot_metrics_[A|B|C].pdf files in open_results/article_data.
 
 Authors: Carlos Guerrero and Isaac Lera
 Date: June 2026
@@ -16,6 +16,12 @@ import os
 import pickle
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
+
+# Ensure we can import the project's local modules from src if needed
+base_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.abspath(os.path.join(base_dir, "..")))
+
 from pymoo.indicators.hv import HV
 from pymoo.indicators.gd import GD
 from pymoo.indicators.igd import IGD
@@ -213,14 +219,14 @@ def generate_boxplots_for_exp(exp_name, exp_dir, results_article_dir):
 
 def main():
     # Configurable variable for the results directory path
-    RESULTS_DIR_NAME = "../open_results/article_data"
+    RESULTS_DIR_NAME = "../../open_results/article_data"
     
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    results_article_dir = os.path.join(base_dir, RESULTS_DIR_NAME)
+    results_article_dir = os.path.abspath(os.path.join(base_dir, RESULTS_DIR_NAME))
     
     for exp_name in ['A', 'B', 'C']:
         exp_dir = os.path.join(results_article_dir, exp_name)
-        generate_boxplots_for_exp(exp_name, exp_dir, results_article_dir)
+        if os.path.exists(exp_dir):
+            generate_boxplots_for_exp(exp_name, exp_dir, results_article_dir)
 
 if __name__ == "__main__":
     main()

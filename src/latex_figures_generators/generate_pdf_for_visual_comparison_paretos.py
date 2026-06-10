@@ -3,9 +3,9 @@
 File: generate_pdf_for_visual_comparison_paretos.py
 Description: Standalone script to generate a horizontal multi-panel PDF comparing the Pareto front evolution across experiments.
 Role: Plotting Script
-Execution: python src/generate_pdf_for_visual_comparison_paretos.py
+Execution: python src/latex_figures_generators/generate_pdf_for_visual_comparison_paretos.py
 Inputs: aggregation_history.pkl and history_submatrix_traditional.pkl files.
-Outputs: pareto_comparison_horizontal.pdf file.
+Outputs: pareto_comparison_horizontal.pdf file in open_results/article_data.
 
 Authors: Carlos Guerrero and Isaac Lera
 Date: June 2026
@@ -16,15 +16,19 @@ import os
 import pickle
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
 from matplotlib.lines import Line2D
+
+# Ensure we can import the project's local modules from src if needed
+base_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.abspath(os.path.join(base_dir, "..")))
 
 def main():
     # Configurable variable for the results directory path
-    RESULTS_DIR_NAME = "../open_results/article_data"
+    RESULTS_DIR_NAME = "../../open_results/article_data"
     
     # Paths to the experiments directories
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    results_article_dir = os.path.join(base_dir, RESULTS_DIR_NAME)
+    results_article_dir = os.path.abspath(os.path.join(base_dir, RESULTS_DIR_NAME))
     
     experiments = {
         'A': {
