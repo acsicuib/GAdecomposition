@@ -1,14 +1,14 @@
-This repository includes the source code, the data and the plots for the paper entitled "A Genetic Decomposition Approach for Multi-objective Application Placement in the Compute Continuum", published in the journal "XXXX":
+This repository includes the source code, the data and the plots for the paper entitled "A Scalable Divide-and-Conquer Genetic Algorithm for Multi-Objective Service Placement in the Cloud-Edge-Fog Computing Continuum", submitted for peer review to the journal "XXXX":
 
 ```
-Carlos Guerrero, Isaac Lera, A Genetic Decomposition Approach for Multi-objective Application Placement in the Compute Continuum, XXXX, Volume X, 2026, Pages X-X, ISSN XXXX, https://doi.org/10.xxxx/xxxx.
+Carlos Guerrero, Isaac Lera, A Scalable Divide-and-Conquer Genetic Algorithm for Multi-Objective Service Placement in the Cloud-Edge-Fog Computing Continuum, XXXX, Volume X, 2026, Pages X-X, ISSN XXXX, https://doi.org/10.xxxx/xxxx.
 ```
 
 If you would consider to cite the paper, you could use this bibtex record:
 
 ```bibtex
 @article{GUERRERO2026,
-title = {A Genetic Decomposition Approach for Multi-objective Application Placement in the Compute Continuum},
+title = {A Scalable Divide-and-Conquer Genetic Algorithm for Multi-Objective Service Placement in the Cloud-Edge-Fog Computing Continuum},
 journal = {XXXX},
 volume = {X},
 pages = {X-X},
