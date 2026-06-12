@@ -152,7 +152,7 @@ def generate_boxplots_for_exp(exp_name, exp_dir, results_article_dir):
         stats['c_trad_decomp'].append(calculate_set_coverage(tf_fit, df_fit))
         
     # 2. Setup Figure and Subplots: 2 rows, 3 columns
-    fig, axes = plt.subplots(2, 3, figsize=(18, 9))
+    fig, axes = plt.subplots(2, 3, figsize=(18, 6.5))
     axes = axes.flatten()
     
     metrics_to_plot = [
@@ -205,9 +205,15 @@ def generate_boxplots_for_exp(exp_name, exp_dir, results_article_dir):
             flier.set_alpha(0.4)
             flier.set_markersize(5)
             
-        ax.set_title(title, fontsize=16, fontweight='bold', pad=12)
-        ax.tick_params(axis='both', which='major', labelsize=13)
+        ax.set_title(title, fontsize=18, fontweight='bold', pad=12)
+        ax.tick_params(axis='both', which='major', labelsize=16)
         ax.grid(True, linestyle='--', alpha=0.5, zorder=0)
+
+        # Añadir la etiqueta del experimento en el tercer plot para no tapar los datos
+        if idx == 2:
+            ax.text(0.96, 0.94, f"Experiment {exp_name}", transform=ax.transAxes,
+                    fontsize=20, fontweight='bold', ha='right', va='top',
+                    bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='gray', alpha=0.9), zorder=10)
         
     plt.tight_layout()
     

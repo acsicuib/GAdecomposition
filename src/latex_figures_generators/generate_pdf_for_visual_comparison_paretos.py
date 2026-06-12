@@ -99,16 +99,16 @@ def main():
             c_val = 0.35 + 0.65 * (step_idx / max(1, n_steps - 1))
             color = cmap_dec(c_val)
             
-            # For the last step, make it slightly larger and solid
+            # Incrementar más el tamaño de los puntos
             is_last = (step_idx == n_steps - 1)
-            size = 75 if is_last else 30
+            size = 160 if is_last else 65
             alpha = 0.95 if is_last else 0.4
             linewidth = 0.8 if is_last else 0.0
             edgecolor = 'black' if is_last else 'none'
             label = 'DC-GA' if (is_last and idx == 0) else None
             
             ax.scatter(x, y, color=color, marker='o', alpha=alpha, s=size, 
-                       edgecolors=edgecolor, linewidths=linewidth, zorder=3, label=label)
+                       edgecolors=edgecolor, linewidths=linewidth, zorder=2, label=label)
             
         # Plot Traditional (Global) steps
         for step_idx in range(n_steps):
@@ -125,22 +125,23 @@ def main():
                 color = cmap_trad(c_val)
                 
                 is_last = (step_idx == n_steps - 1)
-                size = 75 if is_last else 30
+                size = 160 if is_last else 65
                 alpha = 0.95 if is_last else 0.4
                 linewidth = 0.8 if is_last else 0.0
                 edgecolor = 'black' if is_last else 'none'
                 label = 'Global' if (is_last and idx == 0) else None
                 
                 ax.scatter(x, y, color=color, marker='^', alpha=alpha, s=size,
-                           edgecolors=edgecolor, linewidths=linewidth, zorder=2, label=label)
+                           edgecolors=edgecolor, linewidths=linewidth, zorder=4, label=label)
                 
-        # Set titles and label sizes (large for JCR article readability)
-        ax.set_title(exp_info['title'], fontsize=18, fontweight='bold', pad=15)
-        ax.set_xlabel('Mean Response Time (latency)', fontsize=14, labelpad=10)
+        # Set titles and label sizes
+        ax.set_title(exp_info['title'], fontsize=22, fontweight='bold', pad=15)
+        ax.set_xlabel('Mean Response Time (latency)', fontsize=22, labelpad=10)
         if idx == 0:
-            ax.set_ylabel('Total Price (units)', fontsize=14, labelpad=10)
+            ax.set_ylabel('Total Price (units)', fontsize=22, labelpad=10)
         
-        ax.tick_params(axis='x', which='major', labelsize=12)
+        ax.tick_params(axis='x', which='major', labelsize=16)
+        # Dejar el tamaño de los ticks de la Y como estaba antes (12)
         ax.tick_params(axis='y', which='major', labelsize=12, labelrotation=90)
         ax.grid(True, linestyle='--', alpha=0.5, zorder=1)
         ax.margins(0.08)
@@ -148,14 +149,14 @@ def main():
     # Extract the legend handles and labels directly from the first subplot to ensure perfect color/alpha/shape match
     handles, labels = axes[0].get_legend_handles_labels()
     
-    # Place the legend at the bottom of the figure, in a single horizontal row
-    fig.legend(handles=handles, labels=labels, loc='lower center', bbox_to_anchor=(0.5, -0.05),
-               ncol=2, fontsize=14, frameon=True, facecolor='white', edgecolor='lightgray')
+    # Place the legend inside the third plot (right, Exp C), at the top right
+    axes[2].legend(handles=handles, labels=labels, loc='upper right',
+                   fontsize=20, frameon=True, facecolor='white', edgecolor='lightgray', framealpha=0.9)
     
-    # Adjust layout to make room for the bottom legend and reduce spacing between subplots
+    # Adjust layout and reduce spacing between subplots
     plt.tight_layout()
     # wspace=0.09 is the perfect sweet spot for close but separated subplots!
-    plt.subplots_adjust(bottom=0.18, wspace=0.09)
+    plt.subplots_adjust(wspace=0.09)
     
     # Save the output PDF in results_article
     output_pdf = os.path.join(results_article_dir, "pareto_comparison_horizontal.pdf")
