@@ -1,0 +1,5255 @@
+Frente Pareto Global - Último Step
+==================================================
+
+Solución 1:
+  Objetivo 1 (Mean Response Time): 0.6078
+  Objetivo 2 (Total Price): 5535.9575
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_2, App_8, App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_1, App_2, App_3, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 18: App_0
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 28: App_9, App_12
+    - Nodo 29: App_5
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_4, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_4, App_6, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_6
+    - Nodo 50: App_5, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_16
+    - Nodo 70: App_2, App_7, App_16
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_2, App_14
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 119: App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_4, App_16, App_18
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 138: App_1
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11
+    - Nodo 152: App_18, App_19
+    - Nodo 154: App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_6
+
+--------------------------------------------------
+
+Solución 2:
+  Objetivo 1 (Mean Response Time): 2.1943
+  Objetivo 2 (Total Price): 3501.9572
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_12, App_17
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 28: App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_4, App_14, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_4, App_6, App_12, App_14, App_16, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_3, App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_8, App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_8, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_4, App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 138: App_1
+    - Nodo 143: App_8, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 3:
+  Objetivo 1 (Mean Response Time): 2.9150
+  Objetivo 2 (Total Price): 2954.1460
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_4, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_4, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_4, App_16, App_18
+    - Nodo 138: App_1
+    - Nodo 143: App_8, App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 4:
+  Objetivo 1 (Mean Response Time): 1.5510
+  Objetivo 2 (Total Price): 4125.0133
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_11, App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_2, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_18, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 27: App_6
+    - Nodo 31: App_18, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 35: App_2, App_8, App_9, App_15, App_16
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_4, App_6, App_11, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_4, App_6, App_8, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 50: App_5, App_6, App_8, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_2, App_6, App_8, App_11, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_4, App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 138: App_1
+    - Nodo 143: App_8, App_19
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 159: App_7
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 5:
+  Objetivo 1 (Mean Response Time): 1.5936
+  Objetivo 2 (Total Price): 3873.2646
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_11, App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_2, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_18, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 27: App_6
+    - Nodo 31: App_18, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 35: App_2, App_8, App_9, App_15, App_16
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_6, App_11, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 50: App_5, App_6, App_8, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_2, App_6, App_8, App_11, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 143: App_19
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 159: App_7
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 6:
+  Objetivo 1 (Mean Response Time): 6.9560
+  Objetivo 2 (Total Price): 1863.8448
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_14
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 7:
+  Objetivo 1 (Mean Response Time): 0.6417
+  Objetivo 2 (Total Price): 5341.0324
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_2, App_8, App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_1, App_2, App_3, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 18: App_0
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 28: App_9, App_12
+    - Nodo 29: App_5
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_6
+    - Nodo 50: App_5, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_16
+    - Nodo 70: App_2, App_7, App_16
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_2, App_14
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 119: App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11
+    - Nodo 152: App_18, App_19
+    - Nodo 154: App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_6
+
+--------------------------------------------------
+
+Solución 8:
+  Objetivo 1 (Mean Response Time): 5.1500
+  Objetivo 2 (Total Price): 2156.7522
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_3, App_7, App_18, App_19
+    - Nodo 7: App_14
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 9:
+  Objetivo 1 (Mean Response Time): 3.0048
+  Objetivo 2 (Total Price): 2702.3972
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 10:
+  Objetivo 1 (Mean Response Time): 6.8307
+  Objetivo 2 (Total Price): 1869.2077
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_19
+    - Nodo 7: App_14
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_8
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 11:
+  Objetivo 1 (Mean Response Time): 6.2000
+  Objetivo 2 (Total Price): 1880.2922
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_14
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 12:
+  Objetivo 1 (Mean Response Time): 4.3973
+  Objetivo 2 (Total Price): 2191.2688
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_7, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4, App_6, App_11, App_19
+    - Nodo 49: App_1
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_7
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_11
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 13:
+  Objetivo 1 (Mean Response Time): 5.1147
+  Objetivo 2 (Total Price): 2190.6239
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_3, App_7, App_18, App_19
+    - Nodo 7: App_3, App_14
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 14:
+  Objetivo 1 (Mean Response Time): 4.0326
+  Objetivo 2 (Total Price): 2297.0507
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 15:
+  Objetivo 1 (Mean Response Time): 3.6457
+  Objetivo 2 (Total Price): 2519.1186
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 16:
+  Objetivo 1 (Mean Response Time): 2.1949
+  Objetivo 2 (Total Price): 3468.0596
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_18, App_19
+    - Nodo 13: App_1, App_7, App_14
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_12, App_17
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 28: App_19
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_4, App_14, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_4, App_6, App_12, App_14, App_16, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_3, App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_8, App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_8, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_4, App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 138: App_1
+    - Nodo 143: App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 17:
+  Objetivo 1 (Mean Response Time): 2.9358
+  Objetivo 2 (Total Price): 2929.6747
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_4, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_4, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_4, App_16, App_18
+    - Nodo 138: App_1
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 18:
+  Objetivo 1 (Mean Response Time): 1.5516
+  Objetivo 2 (Total Price): 4100.5421
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_11, App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_2, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_18, App_19
+    - Nodo 13: App_1, App_7, App_14
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_18, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 27: App_6
+    - Nodo 31: App_18, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 35: App_2, App_8, App_9, App_15, App_16
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_4, App_6, App_11, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_4, App_6, App_8, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 50: App_5, App_6, App_8, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_2, App_6, App_8, App_11, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_4, App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 138: App_1
+    - Nodo 143: App_19
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 159: App_7
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 19:
+  Objetivo 1 (Mean Response Time): 4.3616
+  Objetivo 2 (Total Price): 2248.8966
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_7, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_8, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_10, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4, App_6, App_11, App_19
+    - Nodo 49: App_1
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_7
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_16, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_11
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 165: App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 20:
+  Objetivo 1 (Mean Response Time): 0.6146
+  Objetivo 2 (Total Price): 5445.1029
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_2, App_8, App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_1, App_2, App_3, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 28: App_9, App_12
+    - Nodo 29: App_5
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_6
+    - Nodo 50: App_5, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_16
+    - Nodo 70: App_2, App_7, App_16
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_2, App_14
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 119: App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11
+    - Nodo 152: App_18, App_19
+    - Nodo 154: App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_6
+
+--------------------------------------------------
+
+Solución 21:
+  Objetivo 1 (Mean Response Time): 2.2018
+  Objetivo 2 (Total Price): 3376.8919
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_12, App_17
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 28: App_19
+    - Nodo 32: App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_14, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_16, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_3, App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_8, App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_8, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 143: App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 22:
+  Objetivo 1 (Mean Response Time): 5.7174
+  Objetivo 2 (Total Price): 2133.4405
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_3, App_14
+    - Nodo 8: App_7
+    - Nodo 9: App_4, App_16
+    - Nodo 10: App_1
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_4, App_8, App_14, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_10, App_15, App_18, App_19
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_16, App_18, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_4, App_6
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 165: App_19
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 23:
+  Objetivo 1 (Mean Response Time): 2.9461
+  Objetivo 2 (Total Price): 2838.5070
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 24:
+  Objetivo 1 (Mean Response Time): 1.5584
+  Objetivo 2 (Total Price): 4009.3744
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_11, App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_2, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_18, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 27: App_6
+    - Nodo 31: App_18, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 35: App_2, App_8, App_9, App_15, App_16
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_6, App_11, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 50: App_5, App_6, App_8, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_2, App_6, App_8, App_11, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 143: App_19
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 159: App_7
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 25:
+  Objetivo 1 (Mean Response Time): 3.9729
+  Objetivo 2 (Total Price): 2433.1605
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 26:
+  Objetivo 1 (Mean Response Time): 1.8607
+  Objetivo 2 (Total Price): 3863.1135
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_12, App_17
+    - Nodo 22: App_3, App_4, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 28: App_19
+    - Nodo 29: App_1
+    - Nodo 32: App_4, App_14, App_18, App_19
+    - Nodo 35: App_19
+    - Nodo 37: App_1, App_17, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_14, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_14, App_16, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_3, App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_15, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_8, App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6, App_19
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_16, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 94: App_5
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_4, App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_6, App_7, App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 131: App_18
+    - Nodo 132: App_3
+    - Nodo 143: App_6, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 27:
+  Objetivo 1 (Mean Response Time): 3.5266
+  Objetivo 2 (Total Price): 2649.1348
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 26: App_16
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 33: App_7
+    - Nodo 37: App_1, App_3, App_5, App_6, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_4, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_6, App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 28:
+  Objetivo 1 (Mean Response Time): 0.3060
+  Objetivo 2 (Total Price): 7243.4146
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_18, App_19
+    - Nodo 8: App_7, App_8, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_7, App_8, App_14, App_18
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14, App_18
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 26: App_14
+    - Nodo 29: App_1
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_11, App_12, App_14, App_16, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 50: App_0
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_15, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6, App_17
+    - Nodo 70: App_0
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_6, App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14, App_16
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_2, App_6, App_18
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7, App_11
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 94: App_5
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 98: App_9, App_12
+    - Nodo 99: App_4
+    - Nodo 101: App_8
+    - Nodo 102: App_2, App_8
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11, App_15
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_7, App_8, App_14
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_13, App_17
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_5, App_8, App_17
+    - Nodo 119: App_9, App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_6, App_7, App_8, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 127: App_0, App_6
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 131: App_4, App_18
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 137: App_9, App_16
+    - Nodo 138: App_1
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_11, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11, App_16
+    - Nodo 152: App_1, App_18, App_19
+    - Nodo 154: App_2, App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1, App_6
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8, App_16
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_0, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 183: App_0
+    - Nodo 188: App_2, App_7, App_11, App_16
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_5, App_6
+
+--------------------------------------------------
+
+Solución 29:
+  Objetivo 1 (Mean Response Time): 1.5052
+  Objetivo 2 (Total Price): 4466.3974
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_11, App_14, App_18
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_2, App_3, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4, App_19
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_7, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_14, App_16, App_18, App_19
+    - Nodo 24: App_18, App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 27: App_6
+    - Nodo 31: App_18, App_19
+    - Nodo 32: App_4, App_8, App_14, App_16, App_18, App_19
+    - Nodo 35: App_2, App_8, App_9, App_15, App_16
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_6, App_10, App_11, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_11, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_6, App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 50: App_5, App_6, App_8, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_14, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_15, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_8, App_14, App_18, App_19
+    - Nodo 68: App_2, App_6, App_8, App_11, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_2, App_6, App_18
+    - Nodo 89: App_3
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 138: App_1
+    - Nodo 143: App_6, App_8, App_11, App_19
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 159: App_7
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_12, App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 30:
+  Objetivo 1 (Mean Response Time): 0.6216
+  Objetivo 2 (Total Price): 5368.7421
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_2, App_8, App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_1, App_2, App_3, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 18: App_0
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 28: App_9, App_12
+    - Nodo 29: App_5
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_6
+    - Nodo 50: App_5, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_16
+    - Nodo 70: App_2, App_7, App_16
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_2, App_14
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 119: App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11
+    - Nodo 152: App_18, App_19
+    - Nodo 154: App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_6
+
+--------------------------------------------------
+
+Solución 31:
+  Objetivo 1 (Mean Response Time): 2.8616
+  Objetivo 2 (Total Price): 3265.8418
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14, App_18
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_4, App_7, App_8, App_10, App_18, App_19
+    - Nodo 9: App_4, App_19
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_2, App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_19
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_7, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_18, App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_8, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_11, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4, App_19
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_14, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_19
+    - Nodo 64: App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_6, App_18, App_19
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 138: App_1
+    - Nodo 143: App_6, App_8, App_11, App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 32:
+  Objetivo 1 (Mean Response Time): 2.2088
+  Objetivo 2 (Total Price): 3312.4821
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_12, App_17
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 28: App_19
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_14, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_16, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_3, App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_8, App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_7, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_8, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 143: App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 33:
+  Objetivo 1 (Mean Response Time): 0.5883
+  Objetivo 2 (Total Price): 5736.0988
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_2, App_8, App_16
+    - Nodo 2: App_3, App_14, App_18
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_1, App_2, App_3, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_18
+    - Nodo 9: App_4, App_19
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_7, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_14, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 28: App_9, App_12
+    - Nodo 29: App_5
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_10, App_15, App_18, App_19
+    - Nodo 41: App_2, App_3, App_6, App_8, App_11, App_12, App_14, App_16, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_6, App_8, App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_6
+    - Nodo 50: App_5, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_8, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_16
+    - Nodo 70: App_2, App_7, App_16
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 72: App_19
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_6, App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_2, App_14
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 119: App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 138: App_1
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_11, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11
+    - Nodo 152: App_18, App_19
+    - Nodo 154: App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_6
+
+--------------------------------------------------
+
+Solución 34:
+  Objetivo 1 (Mean Response Time): 5.7244
+  Objetivo 2 (Total Price): 2064.8199
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_3, App_14
+    - Nodo 8: App_7
+    - Nodo 9: App_4, App_16
+    - Nodo 10: App_1
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_4, App_8, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_10, App_15, App_18, App_19
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_16, App_18, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_4, App_6
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 165: App_19
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 35:
+  Objetivo 1 (Mean Response Time): 3.5065
+  Objetivo 2 (Total Price): 2677.7759
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 26: App_16
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 33: App_7
+    - Nodo 37: App_1, App_3, App_5, App_6, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_6, App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 36:
+  Objetivo 1 (Mean Response Time): 5.1260
+  Objetivo 2 (Total Price): 2184.4620
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_3, App_7, App_18, App_19
+    - Nodo 7: App_14
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 37:
+  Objetivo 1 (Mean Response Time): 0.4934
+  Objetivo 2 (Total Price): 6081.5396
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_3, App_11, App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_14
+    - Nodo 8: App_7, App_8, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_4, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 28: App_9, App_12
+    - Nodo 29: App_5
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 41: App_2, App_3, App_6, App_8, App_11, App_14, App_16, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 50: App_0
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_6, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_16
+    - Nodo 70: App_0
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_6, App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14, App_16
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_6, App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7, App_11
+    - Nodo 91: App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 102: App_2, App_8
+    - Nodo 103: App_11, App_19
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_7, App_8, App_18
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_13, App_17
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 119: App_9, App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3, App_5, App_8
+    - Nodo 137: App_9, App_16
+    - Nodo 138: App_1
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_11, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11
+    - Nodo 152: App_18, App_19
+    - Nodo 154: App_2, App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1, App_6
+    - Nodo 159: App_7, App_19
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8, App_16
+    - Nodo 171: App_1, App_6, App_7, App_11
+    - Nodo 172: App_0, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 183: App_0
+    - Nodo 188: App_2, App_7, App_11, App_16
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_5, App_6
+
+--------------------------------------------------
+
+Solución 38:
+  Objetivo 1 (Mean Response Time): 2.9847
+  Objetivo 2 (Total Price): 2730.1070
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 39:
+  Objetivo 1 (Mean Response Time): 6.1760
+  Objetivo 2 (Total Price): 1908.0019
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_14
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 40:
+  Objetivo 1 (Mean Response Time): 4.3762
+  Objetivo 2 (Total Price): 2218.9786
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_7, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4, App_6, App_11, App_19
+    - Nodo 49: App_1
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_7
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_11
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 41:
+  Objetivo 1 (Mean Response Time): 0.4387
+  Objetivo 2 (Total Price): 6252.8585
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_11, App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_14
+    - Nodo 8: App_7, App_8, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_7, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 12: App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_4, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 28: App_9, App_12
+    - Nodo 29: App_1
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 36: App_3
+    - Nodo 37: App_1, App_17, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_11, App_12, App_14, App_16, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 50: App_0
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_11, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_15, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_17, App_19
+    - Nodo 70: App_0
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_6, App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14, App_16
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_2, App_12, App_18
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7, App_11
+    - Nodo 91: App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 94: App_5
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 102: App_2, App_8
+    - Nodo 103: App_11, App_19
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_7, App_8, App_18
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_13, App_17
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_4, App_8
+    - Nodo 119: App_9, App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_6, App_7, App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 127: App_6
+    - Nodo 131: App_18
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 137: App_9, App_16
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11
+    - Nodo 152: App_18, App_19
+    - Nodo 154: App_2, App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1, App_6
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8, App_16
+    - Nodo 171: App_1, App_6, App_7, App_11
+    - Nodo 172: App_0, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 188: App_2, App_7, App_11, App_16
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_5, App_6
+
+--------------------------------------------------
+
+Solución 42:
+  Objetivo 1 (Mean Response Time): 0.3885
+  Objetivo 2 (Total Price): 6571.9035
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_18, App_19
+    - Nodo 8: App_7, App_8, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 41: App_2, App_3, App_6, App_11, App_12, App_14, App_16, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 50: App_0
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_0
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_6, App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14, App_16
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_6, App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7, App_11
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 98: App_9, App_12
+    - Nodo 101: App_8
+    - Nodo 102: App_2, App_8
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11, App_15
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_7, App_8, App_14
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_13, App_17
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 119: App_9, App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 137: App_9, App_16
+    - Nodo 138: App_1
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_11, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11, App_16
+    - Nodo 152: App_1, App_18, App_19
+    - Nodo 154: App_2, App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1, App_6
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8, App_16
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_0, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 183: App_0
+    - Nodo 188: App_2, App_7, App_11, App_16
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_5, App_6
+
+--------------------------------------------------
+
+Solución 43:
+  Objetivo 1 (Mean Response Time): 0.3250
+  Objetivo 2 (Total Price): 6898.0784
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_18, App_19
+    - Nodo 8: App_7, App_8, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_7, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 12: App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 29: App_1
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 36: App_3
+    - Nodo 37: App_1, App_17, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_11, App_12, App_14, App_16, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 50: App_0
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_15, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_17, App_19
+    - Nodo 70: App_0
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_6, App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14, App_16
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_2, App_12, App_18
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7, App_11
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 94: App_5
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 98: App_9, App_12
+    - Nodo 101: App_8
+    - Nodo 102: App_2, App_8
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11, App_15
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_7, App_8, App_14
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_13, App_17
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_4, App_8
+    - Nodo 119: App_9, App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_6, App_7, App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 127: App_6
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 131: App_18
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 137: App_9, App_16
+    - Nodo 138: App_1
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11, App_16
+    - Nodo 152: App_1, App_18, App_19
+    - Nodo 154: App_2, App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1, App_6
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8, App_16
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_0, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 183: App_0
+    - Nodo 188: App_2, App_7, App_11, App_16
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_5, App_6
+
+--------------------------------------------------
+
+Solución 44:
+  Objetivo 1 (Mean Response Time): 6.0501
+  Objetivo 2 (Total Price): 2006.8031
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_14
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_18, App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_6, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 45:
+  Objetivo 1 (Mean Response Time): 0.3720
+  Objetivo 2 (Total Price): 6636.5465
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_18, App_19
+    - Nodo 8: App_7, App_8, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_11, App_12, App_14, App_16, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 50: App_0
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_15, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_0
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_6, App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14, App_16
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_2, App_6, App_18
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7, App_11
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 98: App_9, App_12
+    - Nodo 101: App_8
+    - Nodo 102: App_2, App_8
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11, App_15
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_7, App_8, App_14
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_13, App_17
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 119: App_9, App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 137: App_9, App_16
+    - Nodo 138: App_1
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_11, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11, App_16
+    - Nodo 152: App_1, App_18, App_19
+    - Nodo 154: App_2, App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1, App_6
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8, App_16
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_0, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 183: App_0
+    - Nodo 188: App_2, App_7, App_11, App_16
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_5, App_6
+
+--------------------------------------------------
+
+Solución 46:
+  Objetivo 1 (Mean Response Time): 1.5735
+  Objetivo 2 (Total Price): 3900.9743
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_11, App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_2, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_18, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 27: App_6
+    - Nodo 31: App_18, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 35: App_2, App_8, App_9, App_15, App_16
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_6, App_11, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 50: App_5, App_6, App_8, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_2, App_6, App_8, App_11, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 143: App_19
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 159: App_7
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 47:
+  Objetivo 1 (Mean Response Time): 5.7531
+  Objetivo 2 (Total Price): 2047.4392
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_3, App_14
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4, App_16
+    - Nodo 10: App_1
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_10, App_15, App_18, App_19
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_16, App_18, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_4, App_6
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 48:
+  Objetivo 1 (Mean Response Time): 4.0115
+  Objetivo 2 (Total Price): 2324.7604
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 49:
+  Objetivo 1 (Mean Response Time): 3.6246
+  Objetivo 2 (Total Price): 2546.8284
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 50:
+  Objetivo 1 (Mean Response Time): 4.3405
+  Objetivo 2 (Total Price): 2280.3340
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_7, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_8, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_10, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4, App_6, App_11, App_19
+    - Nodo 49: App_1
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_7
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_7, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_11
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 165: App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 51:
+  Objetivo 1 (Mean Response Time): 3.9520
+  Objetivo 2 (Total Price): 2470.9810
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_6, App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_12, App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 52:
+  Objetivo 1 (Mean Response Time): 1.8676
+  Objetivo 2 (Total Price): 3806.4439
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_12, App_17
+    - Nodo 22: App_3, App_4, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 28: App_19
+    - Nodo 29: App_1
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 35: App_19
+    - Nodo 37: App_1, App_17, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_14, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_14, App_16, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_3, App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_7, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_15, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_8, App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6, App_19
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 94: App_5
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_4, App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_6, App_7, App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 131: App_18
+    - Nodo 132: App_3
+    - Nodo 143: App_6, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 53:
+  Objetivo 1 (Mean Response Time): 0.3133
+  Objetivo 2 (Total Price): 6985.3476
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_18, App_19
+    - Nodo 8: App_7, App_8, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_7, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 12: App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_2
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 29: App_1
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 36: App_3
+    - Nodo 37: App_1, App_17, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_11, App_12, App_14, App_16, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 50: App_0
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_15, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_5, App_6, App_17, App_19
+    - Nodo 70: App_0
+    - Nodo 71: App_7, App_8, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_6, App_17
+    - Nodo 78: App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 80: App_14, App_16
+    - Nodo 81: App_8, App_11
+    - Nodo 82: App_6
+    - Nodo 84: App_2, App_6, App_18
+    - Nodo 89: App_3
+    - Nodo 90: App_3, App_7, App_11
+    - Nodo 91: App_6, App_7, App_14
+    - Nodo 92: App_16
+    - Nodo 94: App_5
+    - Nodo 95: App_8
+    - Nodo 97: App_3, App_19
+    - Nodo 98: App_9, App_12
+    - Nodo 101: App_8
+    - Nodo 102: App_2, App_8
+    - Nodo 103: App_0, App_11
+    - Nodo 104: App_6, App_19
+    - Nodo 106: App_3, App_6, App_11, App_15
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_7, App_8, App_14
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_13, App_17
+    - Nodo 114: App_0, App_7, App_19
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_4, App_8
+    - Nodo 119: App_9, App_10, App_19
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_6, App_7, App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 127: App_6
+    - Nodo 129: App_7, App_11, App_12, App_17
+    - Nodo 131: App_18
+    - Nodo 132: App_3, App_5, App_8, App_15
+    - Nodo 135: App_11
+    - Nodo 137: App_9, App_16
+    - Nodo 138: App_1
+    - Nodo 142: App_7
+    - Nodo 143: App_6, App_8, App_11, App_19
+    - Nodo 145: App_18
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 150: App_11, App_16
+    - Nodo 152: App_1, App_18, App_19
+    - Nodo 154: App_2, App_6, App_9, App_17
+    - Nodo 155: App_2, App_6
+    - Nodo 158: App_1, App_6
+    - Nodo 159: App_7, App_19
+    - Nodo 160: App_6, App_11
+    - Nodo 161: App_19
+    - Nodo 162: App_7, App_11, App_19
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 166: App_8, App_16
+    - Nodo 171: App_1, App_6, App_7, App_11, App_19
+    - Nodo 172: App_0, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 179: App_6, App_8
+    - Nodo 183: App_0
+    - Nodo 188: App_2, App_7, App_11, App_16
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+    - Nodo 199: App_5, App_6
+
+--------------------------------------------------
+
+Solución 54:
+  Objetivo 1 (Mean Response Time): 2.1685
+  Objetivo 2 (Total Price): 3662.8713
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_3, App_14, App_18
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7, App_19
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_12, App_17
+    - Nodo 22: App_3, App_7, App_8, App_14, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_14, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 28: App_19
+    - Nodo 32: App_4, App_14, App_16, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_10, App_14, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_11, App_12, App_14, App_16, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_3, App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_6, App_8, App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_6, App_7, App_14, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_8, App_14, App_18, App_19
+    - Nodo 68: App_8, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_6, App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 138: App_1
+    - Nodo 143: App_6, App_8, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_12, App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 55:
+  Objetivo 1 (Mean Response Time): 2.9535
+  Objetivo 2 (Total Price): 2771.6702
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_6, App_8
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_5, App_18
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_14, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_0, App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_3, App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 174: App_6, App_9
+    - Nodo 192: App_19
+    - Nodo 193: App_8, App_16
+    - Nodo 194: App_7, App_11
+
+--------------------------------------------------
+
+Solución 56:
+  Objetivo 1 (Mean Response Time): 6.0767
+  Objetivo 2 (Total Price): 1949.5652
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_14
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_14, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 57:
+  Objetivo 1 (Mean Response Time): 4.3455
+  Objetivo 2 (Total Price): 2260.5419
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_18
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_7, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_14, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4, App_6, App_11, App_19
+    - Nodo 49: App_1
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_7
+    - Nodo 59: App_4, App_14, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_11
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 58:
+  Objetivo 1 (Mean Response Time): 1.5654
+  Objetivo 2 (Total Price): 3942.5376
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_11, App_14
+    - Nodo 4: App_14
+    - Nodo 6: App_0
+    - Nodo 7: App_2, App_7, App_13, App_14, App_17
+    - Nodo 8: App_7, App_8, App_9, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 18: App_0, App_16
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 21: App_7, App_11, App_17
+    - Nodo 22: App_1, App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_18, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_0, App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 27: App_6
+    - Nodo 31: App_18, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 35: App_2, App_8, App_9, App_15, App_16
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_6, App_11, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_16, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_0, App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 50: App_5, App_6, App_8, App_16
+    - Nodo 53: App_4
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 57: App_1
+    - Nodo 59: App_4, App_5, App_14, App_15, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_2, App_6, App_8, App_11, App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 77: App_17
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 89: App_3
+    - Nodo 91: App_7, App_14
+    - Nodo 95: App_8
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 103: App_11, App_19
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_8, App_19
+    - Nodo 112: App_9, App_19
+    - Nodo 113: App_14
+    - Nodo 114: App_7
+    - Nodo 115: App_7, App_9
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 124: App_4, App_19
+    - Nodo 126: App_16, App_18
+    - Nodo 132: App_3
+    - Nodo 143: App_19
+    - Nodo 146: App_13, App_19
+    - Nodo 148: App_3, App_6, App_18, App_19
+    - Nodo 152: App_18, App_19
+    - Nodo 155: App_2, App_6
+    - Nodo 159: App_7
+    - Nodo 160: App_8
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 171: App_6, App_7
+    - Nodo 172: App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 175: App_3, App_11, App_18
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 59:
+  Objetivo 1 (Mean Response Time): 3.9803
+  Objetivo 2 (Total Price): 2366.3237
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4
+    - Nodo 10: App_1, App_8, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_18, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_14, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_14, App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_7
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_6
+    - Nodo 192: App_19
+    - Nodo 194: App_11
+
+--------------------------------------------------
+
+Solución 60:
+  Objetivo 1 (Mean Response Time): 3.5934
+  Objetivo 2 (Total Price): 2588.3916
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7, App_8, App_9, App_10, App_11, App_12, App_13, App_14, App_15, App_16, App_17, App_18, App_19
+    - Nodo 1: App_16
+    - Nodo 2: App_14
+    - Nodo 4: App_14
+    - Nodo 5: App_7, App_9
+    - Nodo 7: App_2, App_3, App_8, App_9, App_13, App_14, App_17
+    - Nodo 8: App_7, App_10, App_18, App_19
+    - Nodo 9: App_4, App_7
+    - Nodo 10: App_1, App_14
+    - Nodo 11: App_14, App_18, App_19
+    - Nodo 13: App_1, App_7, App_8, App_14, App_19
+    - Nodo 15: App_1, App_3, App_10, App_14
+    - Nodo 19: App_4, App_8, App_14
+    - Nodo 20: App_3, App_4, App_7, App_8, App_11, App_14, App_16, App_18, App_19
+    - Nodo 22: App_3, App_4, App_8, App_18, App_19
+    - Nodo 23: App_3, App_7, App_8, App_16, App_19
+    - Nodo 24: App_19
+    - Nodo 25: App_4, App_6, App_8, App_11, App_14, App_15, App_19
+    - Nodo 32: App_3, App_4, App_14, App_18, App_19
+    - Nodo 37: App_1, App_3, App_5, App_9, App_19
+    - Nodo 38: App_14, App_18, App_19
+    - Nodo 39: App_3, App_15, App_18, App_19
+    - Nodo 40: App_3
+    - Nodo 41: App_2, App_3, App_6, App_8, App_12, App_14, App_19
+    - Nodo 42: App_14
+    - Nodo 43: App_6, App_18, App_19
+    - Nodo 44: App_4, App_14, App_19
+    - Nodo 45: App_3, App_8, App_19
+    - Nodo 46: App_18, App_19
+    - Nodo 47: App_3, App_4
+    - Nodo 49: App_1, App_6
+    - Nodo 53: App_4
+    - Nodo 54: App_3, App_4, App_18, App_19
+    - Nodo 55: App_2, App_18, App_19
+    - Nodo 59: App_4, App_14, App_18
+    - Nodo 60: App_3, App_4, App_7, App_14, App_18, App_19
+    - Nodo 61: App_3, App_14, App_16, App_18
+    - Nodo 62: App_3, App_4, App_14, App_19
+    - Nodo 65: App_14
+    - Nodo 66: App_3, App_4, App_14, App_18, App_19
+    - Nodo 68: App_14, App_18, App_19
+    - Nodo 69: App_3, App_4, App_6, App_7, App_16
+    - Nodo 70: App_2, App_7, App_11, App_16
+    - Nodo 71: App_7, App_14
+    - Nodo 73: App_7, App_9
+    - Nodo 75: App_6, App_14, App_19
+    - Nodo 79: App_4, App_15, App_19
+    - Nodo 81: App_8, App_11
+    - Nodo 84: App_18, App_19
+    - Nodo 91: App_7, App_14
+    - Nodo 97: App_19
+    - Nodo 101: App_14
+    - Nodo 106: App_3, App_6, App_11
+    - Nodo 109: App_6
+    - Nodo 110: App_16
+    - Nodo 111: App_19
+    - Nodo 114: App_7
+    - Nodo 115: App_19
+    - Nodo 118: App_8
+    - Nodo 120: App_2, App_15, App_16
+    - Nodo 123: App_18
+    - Nodo 126: App_16, App_18
+    - Nodo 143: App_19
+    - Nodo 148: App_3
+    - Nodo 155: App_2, App_6
+    - Nodo 161: App_19
+    - Nodo 162: App_3, App_7, App_11
+    - Nodo 163: App_14, App_15, App_19
+    - Nodo 173: App_1, App_6
+    - Nodo 192: App_19
+    - Nodo 193: App_8
+    - Nodo 194: App_11
+
+--------------------------------------------------
+

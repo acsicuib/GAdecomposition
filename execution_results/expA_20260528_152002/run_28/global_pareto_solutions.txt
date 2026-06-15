@@ -1,0 +1,1925 @@
+Frente Pareto Global - Último Step
+==================================================
+
+Solución 1:
+  Objetivo 1 (Mean Response Time): 8.0854
+  Objetivo 2 (Total Price): 205.4927
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+    - Nodo 6: App_3
+
+--------------------------------------------------
+
+Solución 2:
+  Objetivo 1 (Mean Response Time): 0.6286
+  Objetivo 2 (Total Price): 2989.2001
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_0
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_6
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3, App_4, App_7
+    - Nodo 13: App_1, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_6, App_7
+    - Nodo 19: App_3, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_0, App_2, App_6
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 3:
+  Objetivo 1 (Mean Response Time): 5.8839
+  Objetivo 2 (Total Price): 214.5987
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 4:
+  Objetivo 1 (Mean Response Time): 7.8185
+  Objetivo 2 (Total Price): 213.7907
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_2
+    - Nodo 2: App_0, App_1, App_2, App_3, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+    - Nodo 6: App_3
+
+--------------------------------------------------
+
+Solución 5:
+  Objetivo 1 (Mean Response Time): 1.2101
+  Objetivo 2 (Total Price): 1497.5052
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 6: App_4, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 13: App_0, App_7
+    - Nodo 15: App_1, App_2, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 6:
+  Objetivo 1 (Mean Response Time): 1.2532
+  Objetivo 2 (Total Price): 1357.4337
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 26: App_0, App_2, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 7:
+  Objetivo 1 (Mean Response Time): 1.6139
+  Objetivo 2 (Total Price): 899.5826
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2
+    - Nodo 10: App_0, App_1, App_2
+    - Nodo 15: App_1, App_2, App_7
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 8:
+  Objetivo 1 (Mean Response Time): 1.5400
+  Objetivo 2 (Total Price): 1011.0148
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_4, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2, App_3
+    - Nodo 10: App_1, App_2
+    - Nodo 13: App_0, App_7
+    - Nodo 15: App_1, App_2, App_7
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 9:
+  Objetivo 1 (Mean Response Time): 0.6500
+  Objetivo 2 (Total Price): 2760.6564
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 6: App_0
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_6
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3, App_4, App_7
+    - Nodo 13: App_1, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_6, App_7
+    - Nodo 19: App_3, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 10:
+  Objetivo 1 (Mean Response Time): 1.7624
+  Objetivo 2 (Total Price): 872.9578
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_1, App_2, App_3, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0
+    - Nodo 10: App_1, App_2
+    - Nodo 15: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 11:
+  Objetivo 1 (Mean Response Time): 2.5949
+  Objetivo 2 (Total Price): 523.4880
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_2, App_3
+    - Nodo 8: App_0
+    - Nodo 15: App_1, App_2
+
+--------------------------------------------------
+
+Solución 12:
+  Objetivo 1 (Mean Response Time): 1.4651
+  Objetivo 2 (Total Price): 1121.2291
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_1, App_2
+    - Nodo 11: App_1
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 20: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 13:
+  Objetivo 1 (Mean Response Time): 1.5267
+  Objetivo 2 (Total Price): 1035.0881
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_4, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2
+    - Nodo 13: App_0, App_7
+    - Nodo 15: App_1, App_2, App_7
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 14:
+  Objetivo 1 (Mean Response Time): 0.6633
+  Objetivo 2 (Total Price): 2655.7665
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_0, App_2, App_6
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 15:
+  Objetivo 1 (Mean Response Time): 5.6170
+  Objetivo 2 (Total Price): 222.8967
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_2
+    - Nodo 2: App_0, App_1, App_2, App_3, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 16:
+  Objetivo 1 (Mean Response Time): 2.2799
+  Objetivo 2 (Total Price): 617.3525
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_2, App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2
+    - Nodo 15: App_1, App_2, App_7
+
+--------------------------------------------------
+
+Solución 17:
+  Objetivo 1 (Mean Response Time): 5.5039
+  Objetivo 2 (Total Price): 232.3736
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+    - Nodo 6: App_3
+
+--------------------------------------------------
+
+Solución 18:
+  Objetivo 1 (Mean Response Time): 5.0231
+  Objetivo 2 (Total Price): 244.2103
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_2, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 19:
+  Objetivo 1 (Mean Response Time): 1.8171
+  Objetivo 2 (Total Price): 805.7180
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 8: App_0
+    - Nodo 10: App_0, App_1, App_2
+    - Nodo 15: App_1, App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 20:
+  Objetivo 1 (Mean Response Time): 2.1863
+  Objetivo 2 (Total Price): 637.9919
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 10: App_1, App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 21:
+  Objetivo 1 (Mean Response Time): 3.2011
+  Objetivo 2 (Total Price): 379.8351
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_2, App_3
+
+--------------------------------------------------
+
+Solución 22:
+  Objetivo 1 (Mean Response Time): 2.4306
+  Objetivo 2 (Total Price): 600.2117
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2, App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2
+    - Nodo 15: App_1, App_2, App_7
+
+--------------------------------------------------
+
+Solución 23:
+  Objetivo 1 (Mean Response Time): 2.7457
+  Objetivo 2 (Total Price): 506.3472
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2, App_3
+    - Nodo 8: App_0
+    - Nodo 15: App_1, App_2
+
+--------------------------------------------------
+
+Solución 24:
+  Objetivo 1 (Mean Response Time): 3.1038
+  Objetivo 2 (Total Price): 400.9684
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_2, App_3
+
+--------------------------------------------------
+
+Solución 25:
+  Objetivo 1 (Mean Response Time): 2.0890
+  Objetivo 2 (Total Price): 659.1252
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 10: App_1, App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 26:
+  Objetivo 1 (Mean Response Time): 0.8204
+  Objetivo 2 (Total Price): 2035.0939
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 27:
+  Objetivo 1 (Mean Response Time): 7.9351
+  Objetivo 2 (Total Price): 212.3567
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 28:
+  Objetivo 1 (Mean Response Time): 5.2452
+  Objetivo 2 (Total Price): 233.8018
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_2
+    - Nodo 2: App_0, App_1, App_2, App_3, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 29:
+  Objetivo 1 (Mean Response Time): 3.8775
+  Objetivo 2 (Total Price): 302.3361
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+    - Nodo 6: App_3
+
+--------------------------------------------------
+
+Solución 30:
+  Objetivo 1 (Mean Response Time): 2.5641
+  Objetivo 2 (Total Price): 578.6916
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2, App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2
+    - Nodo 15: App_1, App_2, App_7
+
+--------------------------------------------------
+
+Solución 31:
+  Objetivo 1 (Mean Response Time): 1.9374
+  Objetivo 2 (Total Price): 750.1652
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 10: App_0, App_1, App_2
+    - Nodo 15: App_2
+    - Nodo 20: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 32:
+  Objetivo 1 (Mean Response Time): 1.8304
+  Objetivo 2 (Total Price): 781.6448
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 8: App_0
+    - Nodo 10: App_1, App_2
+    - Nodo 15: App_1, App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 33:
+  Objetivo 1 (Mean Response Time): 1.3275
+  Objetivo 2 (Total Price): 1250.7894
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_1, App_2
+    - Nodo 11: App_1
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 34:
+  Objetivo 1 (Mean Response Time): 1.3820
+  Objetivo 2 (Total Price): 1205.2190
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 35:
+  Objetivo 1 (Mean Response Time): 1.0651
+  Objetivo 2 (Total Price): 1711.4030
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 36:
+  Objetivo 1 (Mean Response Time): 0.6328
+  Objetivo 2 (Total Price): 2928.5131
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_0
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_6
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3, App_4, App_7
+    - Nodo 13: App_1, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_6, App_7
+    - Nodo 19: App_3, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_2, App_3, App_4, App_5, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 37:
+  Objetivo 1 (Mean Response Time): 0.9631
+  Objetivo 2 (Total Price): 1931.5908
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_2, App_3, App_4, App_5, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 38:
+  Objetivo 1 (Mean Response Time): 0.6674
+  Objetivo 2 (Total Price): 2595.0795
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_2, App_3, App_4, App_5, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 39:
+  Objetivo 1 (Mean Response Time): 0.9575
+  Objetivo 2 (Total Price): 2020.9224
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 26: App_0, App_2, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 40:
+  Objetivo 1 (Mean Response Time): 4.2014
+  Objetivo 2 (Total Price): 281.5320
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+    - Nodo 6: App_3
+
+--------------------------------------------------
+
+Solución 41:
+  Objetivo 1 (Mean Response Time): 0.6688
+  Objetivo 2 (Total Price): 2539.1136
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_5, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 42:
+  Objetivo 1 (Mean Response Time): 0.6342
+  Objetivo 2 (Total Price): 2872.5472
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 6: App_0
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_6
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3, App_4, App_7
+    - Nodo 13: App_1, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_6, App_7
+    - Nodo 19: App_3, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_5, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 43:
+  Objetivo 1 (Mean Response Time): 0.9645
+  Objetivo 2 (Total Price): 1875.6249
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_5, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 44:
+  Objetivo 1 (Mean Response Time): 4.8652
+  Objetivo 2 (Total Price): 251.5767
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_2
+    - Nodo 2: App_0, App_1, App_2, App_3, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+    - Nodo 6: App_3
+
+--------------------------------------------------
+
+Solución 45:
+  Objetivo 1 (Mean Response Time): 4.0511
+  Objetivo 2 (Total Price): 288.3960
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 46:
+  Objetivo 1 (Mean Response Time): 3.7272
+  Objetivo 2 (Total Price): 309.2001
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 47:
+  Objetivo 1 (Mean Response Time): 4.2732
+  Objetivo 2 (Total Price): 277.9876
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 48:
+  Objetivo 1 (Mean Response Time): 3.0240
+  Objetivo 2 (Total Price): 422.8289
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_2, App_3
+
+--------------------------------------------------
+
+Solución 49:
+  Objetivo 1 (Mean Response Time): 2.0092
+  Objetivo 2 (Total Price): 680.9857
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 10: App_1, App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 50:
+  Objetivo 1 (Mean Response Time): 1.4519
+  Objetivo 2 (Total Price): 1145.3024
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2
+    - Nodo 11: App_1
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 20: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 51:
+  Objetivo 1 (Mean Response Time): 1.3952
+  Objetivo 2 (Total Price): 1181.1457
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_1, App_2
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 52:
+  Objetivo 1 (Mean Response Time): 0.9977
+  Objetivo 2 (Total Price): 1737.2797
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 53:
+  Objetivo 1 (Mean Response Time): 5.1753
+  Objetivo 2 (Total Price): 242.4436
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_1, App_2
+    - Nodo 2: App_0, App_1, App_2, App_3, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 54:
+  Objetivo 1 (Mean Response Time): 0.7458
+  Objetivo 2 (Total Price): 2206.6591
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_6
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_2
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 55:
+  Objetivo 1 (Mean Response Time): 1.6272
+  Objetivo 2 (Total Price): 875.5093
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2
+    - Nodo 10: App_1, App_2
+    - Nodo 15: App_1, App_2, App_7
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 56:
+  Objetivo 1 (Mean Response Time): 0.7112
+  Objetivo 2 (Total Price): 2308.0605
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_7
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 57:
+  Objetivo 1 (Mean Response Time): 0.6497
+  Objetivo 2 (Total Price): 2804.4233
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6
+    - Nodo 6: App_0
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_6
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3, App_4, App_7
+    - Nodo 13: App_1, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_6, App_7
+    - Nodo 19: App_3, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 58:
+  Objetivo 1 (Mean Response Time): 0.9800
+  Objetivo 2 (Total Price): 1807.5010
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 59:
+  Objetivo 1 (Mean Response Time): 0.6916
+  Objetivo 2 (Total Price): 2388.9010
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_7
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 60:
+  Objetivo 1 (Mean Response Time): 0.6846
+  Objetivo 2 (Total Price): 2427.2227
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 61:
+  Objetivo 1 (Mean Response Time): 0.7982
+  Objetivo 2 (Total Price): 2104.8252
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_2
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 62:
+  Objetivo 1 (Mean Response Time): 0.8057
+  Objetivo 2 (Total Price): 2072.7033
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 63:
+  Objetivo 1 (Mean Response Time): 0.9803
+  Objetivo 2 (Total Price): 1763.7340
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 64:
+  Objetivo 1 (Mean Response Time): 0.7356
+  Objetivo 2 (Total Price): 2245.7097
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 65:
+  Objetivo 1 (Mean Response Time): 3.3223
+  Objetivo 2 (Total Price): 371.1664
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 66:
+  Objetivo 1 (Mean Response Time): 0.7873
+  Objetivo 2 (Total Price): 2182.0934
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_3, App_4, App_5, App_6
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_2
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_5, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 67:
+  Objetivo 1 (Mean Response Time): 0.9694
+  Objetivo 2 (Total Price): 1841.0022
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_5, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 68:
+  Objetivo 1 (Mean Response Time): 0.6391
+  Objetivo 2 (Total Price): 2837.9245
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_3, App_4, App_5, App_6
+    - Nodo 6: App_0
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_6
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3, App_4, App_7
+    - Nodo 13: App_1, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_6, App_7
+    - Nodo 19: App_3, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_5, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 69:
+  Objetivo 1 (Mean Response Time): 1.2098
+  Objetivo 2 (Total Price): 1541.2721
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6
+    - Nodo 6: App_4, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 13: App_0, App_7
+    - Nodo 15: App_1, App_2, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 70:
+  Objetivo 1 (Mean Response Time): 1.0932
+  Objetivo 2 (Total Price): 1628.7935
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 26: App_0, App_2, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 71:
+  Objetivo 1 (Mean Response Time): 1.2705
+  Objetivo 2 (Total Price): 1330.9794
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 11: App_1
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 26: App_0, App_2, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 72:
+  Objetivo 1 (Mean Response Time): 0.7182
+  Objetivo 2 (Total Price): 2272.1640
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 73:
+  Objetivo 1 (Mean Response Time): 2.4937
+  Objetivo 2 (Total Price): 587.5506
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_2
+    - Nodo 15: App_1, App_2, App_7
+
+--------------------------------------------------
+
+Solución 74:
+  Objetivo 1 (Mean Response Time): 2.8088
+  Objetivo 2 (Total Price): 493.6860
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+    - Nodo 8: App_0
+    - Nodo 15: App_1, App_2
+
+--------------------------------------------------
+
+Solución 75:
+  Objetivo 1 (Mean Response Time): 3.5915
+  Objetivo 2 (Total Price): 328.5131
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 76:
+  Objetivo 1 (Mean Response Time): 4.7149
+  Objetivo 2 (Total Price): 258.4407
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_2
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 77:
+  Objetivo 1 (Mean Response Time): 1.2969
+  Objetivo 2 (Total Price): 1301.3170
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 78:
+  Objetivo 1 (Mean Response Time): 1.9719
+  Objetivo 2 (Total Price): 702.0727
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 10: App_1, App_2
+    - Nodo 15: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 79:
+  Objetivo 1 (Mean Response Time): 2.9867
+  Objetivo 2 (Total Price): 443.9160
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_2, App_3
+    - Nodo 15: App_2
+
+--------------------------------------------------
+
+Solución 80:
+  Objetivo 1 (Mean Response Time): 4.4928
+  Objetivo 2 (Total Price): 268.8492
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_2, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 81:
+  Objetivo 1 (Mean Response Time): 3.4196
+  Objetivo 2 (Total Price): 350.0332
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 82:
+  Objetivo 1 (Mean Response Time): 4.5814
+  Objetivo 2 (Total Price): 263.7571
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 83:
+  Objetivo 1 (Mean Response Time): 4.4228
+  Objetivo 2 (Total Price): 277.4909
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_1, App_2, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 84:
+  Objetivo 1 (Mean Response Time): 4.8036
+  Objetivo 2 (Total Price): 253.3487
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2
+    - Nodo 2: App_0, App_1, App_2, App_3, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_2
+
+--------------------------------------------------
+
+Solución 85:
+  Objetivo 1 (Mean Response Time): 0.9595
+  Objetivo 2 (Total Price): 1968.6530
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_0, App_2, App_6
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_5, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 86:
+  Objetivo 1 (Mean Response Time): 0.6638
+  Objetivo 2 (Total Price): 2632.1417
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_0, App_2, App_6
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_5, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 87:
+  Objetivo 1 (Mean Response Time): 0.6292
+  Objetivo 2 (Total Price): 2965.5754
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 6: App_0
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_6
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3, App_4, App_7
+    - Nodo 13: App_1, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_6, App_7
+    - Nodo 19: App_3, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_0, App_2, App_6
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_5, App_7
+    - Nodo 27: App_0, App_1, App_2, App_6
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 88:
+  Objetivo 1 (Mean Response Time): 1.9507
+  Objetivo 2 (Total Price): 726.0919
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 10: App_1, App_2
+    - Nodo 15: App_2
+    - Nodo 20: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 89:
+  Objetivo 1 (Mean Response Time): 1.1502
+  Objetivo 2 (Total Price): 1548.6035
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_1, App_2
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_2, App_7
+
+--------------------------------------------------
+
+Solución 90:
+  Objetivo 1 (Mean Response Time): 3.3565
+  Objetivo 2 (Total Price): 362.6943
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2, App_3
+
+--------------------------------------------------
+
+Solución 91:
+  Objetivo 1 (Mean Response Time): 4.6431
+  Objetivo 2 (Total Price): 261.9851
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_2, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2
+    - Nodo 6: App_3
+
+--------------------------------------------------
+
+Solución 92:
+  Objetivo 1 (Mean Response Time): 3.9880
+  Objetivo 2 (Total Price): 301.0572
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_5, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2, App_3
+
+--------------------------------------------------
+
+Solución 93:
+  Objetivo 1 (Mean Response Time): 0.9590
+  Objetivo 2 (Total Price): 1992.2778
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_0, App_2, App_6
+    - Nodo 24: App_0, App_2, App_5, App_6, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 94:
+  Objetivo 1 (Mean Response Time): 5.5804
+  Objetivo 2 (Total Price): 231.7395
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 4: App_0, App_2
+
+--------------------------------------------------
+
+Solución 95:
+  Objetivo 1 (Mean Response Time): 1.0654
+  Objetivo 2 (Total Price): 1667.6361
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 96:
+  Objetivo 1 (Mean Response Time): 0.7073
+  Objetivo 2 (Total Price): 2349.4321
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_5, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 97:
+  Objetivo 1 (Mean Response Time): 1.0786
+  Objetivo 2 (Total Price): 1666.4030
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_7
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 26: App_0, App_2, App_7
+    - Nodo 27: App_0, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 98:
+  Objetivo 1 (Mean Response Time): 2.8791
+  Objetivo 2 (Total Price): 484.8271
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_2, App_4, App_5, App_7
+    - Nodo 2: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_2, App_3
+    - Nodo 8: App_0
+    - Nodo 15: App_1, App_2
+
+--------------------------------------------------
+
+Solución 99:
+  Objetivo 1 (Mean Response Time): 0.7979
+  Objetivo 2 (Total Price): 2148.5922
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_1, App_2, App_3, App_4, App_5, App_6
+    - Nodo 6: App_3
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_2
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
+Solución 100:
+  Objetivo 1 (Mean Response Time): 0.6985
+  Objetivo 2 (Total Price): 2353.0045
+  Asignaciones:
+    - Nodo 0: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 1: App_0, App_1, App_4, App_5, App_6, App_7
+    - Nodo 2: App_2, App_4, App_5, App_6, App_7
+    - Nodo 3: App_0, App_1, App_2, App_3, App_4, App_5, App_6, App_7
+    - Nodo 4: App_0, App_3, App_4, App_5, App_6
+    - Nodo 7: App_0, App_3
+    - Nodo 8: App_0, App_1, App_2, App_3
+    - Nodo 10: App_0, App_1, App_2, App_7
+    - Nodo 11: App_1, App_2, App_3
+    - Nodo 13: App_0, App_2, App_7
+    - Nodo 14: App_0, App_1, App_6, App_7
+    - Nodo 15: App_1, App_2, App_4, App_6, App_7
+    - Nodo 16: App_0, App_2
+    - Nodo 17: App_1, App_7
+    - Nodo 20: App_0, App_2, App_4, App_7
+    - Nodo 21: App_1, App_2
+    - Nodo 24: App_0, App_2, App_3, App_7
+    - Nodo 26: App_0, App_2, App_4, App_7
+    - Nodo 27: App_0, App_1, App_2
+    - Nodo 29: App_1, App_2
+
+--------------------------------------------------
+
